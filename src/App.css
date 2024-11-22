@@ -1,42 +1,89 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --primary-color: #121f43;
+  --secondary-color: #152e4f;
+  --tertiary-color: #152e4f;
+  --quaternary-color: #152e4f;
+  --background-color: #10172a;
+  --text-color: #e2e8f0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.portfolio {
+  display: flex;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.left-column {
+  width: 50%; 
+  height: 100%;
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
 }
 
-.card {
-  padding: 2em;
+.right-column {
+  padding: 130px 0 0 50%;
+  width: 50%;
+  overflow-y: auto;
+  height: 100vh;
 }
 
-.read-the-docs {
-  color: #888;
+.right-column section {
+  margin-bottom: 20px;
+}
+
+.right-column h2 {
+  margin-bottom: 10px;
+}
+
+.right-column p,
+.right-column ul {
+}
+
+.right-column ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.active {
+  color: #4f46e5; /* Active link color */
+  font-weight: bold;
+}
+
+#cursor-bg {
+  display: none;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: var(--secondary-color);
+  border-radius: 10%;
+  filter: blur(90px);
+  pointer-events: none;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  /* styles for mobile */
+}
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  /* styles for tablets */
+}
+
+/* Large desktop monitors */
+@media (min-width: 1200px) {
+  /* styles for large monitors */
 }
