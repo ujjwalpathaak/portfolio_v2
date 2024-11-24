@@ -40,7 +40,7 @@ body{
 	position:relative;
 	overflow:hidden;
 	font-family: Lora, serif;
-	background:#F0F0F0 !important;
+	background:#FFF8E8 !important;
 }
 *{
 	font-family: inherit;
@@ -55,16 +55,16 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Roboto Mono', sans-serif;
 }
 .color{
-	color:#303F9F;
+	color:#674636;
 }
 ::-webkit-scrollbar{
-	background:#F0F0F0;
+	background:#FFF8E8;
 	height:10px;
 	width:10px;
 }
 ::-webkit-scrollbar-thumb{
 	background:#D0D0D0;
-	border:solid 2px #F0F0F0;
+	border:solid 2px #FFF8E8;
 }
 ::-webkit-scrollbar-thumb:hover{
 	background:#A0A0A0;
@@ -78,7 +78,7 @@ img{
 	Menu
 =======================================================*/
 body.border-dark .menu-btn > .lines > span{
-	background:#303F9F;
+	background:#674636;
 }
 .menu-btn > .lines > .l2{
 	margin:6px 0;
@@ -125,7 +125,7 @@ body.border-dark .menu-btn > .lines > span{
 .menu-items > li > a{
 	color:#FFF;
 	color:rgba(255,255,255,.6);
-	font-size:18px;
+	font-size:15px;
 	font-weight:700;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -149,8 +149,20 @@ body.border-dark .menu-btn > .lines > span{
 	-moz-transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
 	transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
 }
+.main-content > .page-border2{
+	position:absolute;
+	border:solid 1px #FFF;
+	border-color:rgba(255,255,255,.4);
+	z-index:100;
+	-webkit-transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
+	-moz-transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
+	transition:border-color 2.5s cubic-bezier(.785,.135,.15,.86);
+}
 body.border-dark .main-content > .page-border{
-	border-color:#303F9F;
+	border-color:#674636;
+}
+body.border-dark .main-content > .page-border2{
+	border-color:#674636;
 }
 .main-content > .border-top,
 .main-content > .border-bottom{
@@ -176,8 +188,9 @@ body.border-dark .main-content > .page-border{
 .main-content > .border-left{
 	left:14px;
 }
-
-
+.namaste-svg{
+	margin: 0 0 10px 0;
+}
 /*=======================================================
 	Section Styles
 =======================================================*/
@@ -200,7 +213,7 @@ body.border-dark .main-content > .page-border{
 	z-index:-1;
 	visibility:hidden;
 	padding-top:110px;
-	background:#F0F0F0;
+	background:#FFF8E8;
 }
 .section.active{
 	visibility:visible;
@@ -226,7 +239,7 @@ body.section-switching .main-content:after{
 }
 body.border-dark .main-content:before,
 body.border-dark .main-content:after{
-	border-color:#303F9F;
+	border-color:#674636;
 }
 .sections{
 	height:100%;
@@ -248,7 +261,7 @@ body.border-dark .main-content:after{
 	left:0;
 	height:100%;
 	width:100%;
-	background:#303F9F;
+	background:#674636;
 	opacity:.8;
 	z-index:-1;
 }
@@ -338,7 +351,7 @@ a.btn-custom{
 	visibility:visible;
 }
 .btn-custom.btn-color:after{
-	background:#303F9F;
+	background:#674636;
 }
 .btn-custom.btn-color:hover:after{
 	opacity:.4;
@@ -358,7 +371,7 @@ body.section-switching .animation-block{
 	left:0;
 	height:0%;
 	width:100%;
-	background:#E0E0E0;
+	background:#AAB396;
 	z-index:199;
 }
 body.section-switching.down .animation-block{
@@ -522,7 +535,7 @@ body.section-switching.up .animation-block{
 	About Section
 =======================================================*/
 .about-section{
-	background:#F0F0F0;
+	background:#FFF8E8;
 }
 .about-block .section-header{
 	margin-bottom:80px;
@@ -537,6 +550,7 @@ body.section-switching.up .animation-block{
 }
 .about-btns > .btn-custom{
 	margin-right:25px;
+	margin-bottom:25px;
 }
 .info-list{
 	padding:0;
@@ -551,11 +565,11 @@ body.section-switching.up .animation-block{
 	border:none;
 }
 .info-list > li > strong{
-	letter-spacing:4px;
 	color:#202020;
 	text-transform:uppercase;
 }
 .info-list > li > span{
+	margin: 0 0 0 10px;
 	color:rgba(0,0,0,.4);
 }
 .services-block .section-header{
@@ -577,7 +591,7 @@ body.section-switching.up .animation-block{
 	-ms-transform:rotate(-4deg);
 	-o-transform:rotate(-4deg);
 	transform:rotate(-4deg);
-	background:#303F9F;
+	background:#674636;
 	opacity:0;
 	visibility:hidden;
 	z-index:-1;
@@ -608,7 +622,7 @@ body.section-switching.up .animation-block{
 	font-size:54px;
 	line-height:54px;
 	vertical-align:middle;
-	color:#303F9F;
+	color:#674636;
 }
 .service > .content{
 	position:relative;
@@ -644,10 +658,10 @@ body.section-switching.up .animation-block{
 	font-size:14px;
 }
 .skill > .bar{
-	background:#E0E0E0;
+	background:#AAB396;
 }
 .skill > .bar > .percent{
-	background:#303F9F;
+	background:#674636;
 	width:10%;
 	height:6px;
 }
@@ -699,7 +713,7 @@ body.section-switching.up .animation-block{
 	right:0;
 	top:-10px;
 	bottom:-10px;
-	background:#303F9F;
+	background:#674636;
 	-webkit-transform:rotate(-4deg);
 	-moz-transform:rotate(-4deg);
 	-ms-transform:rotate(-4deg);
@@ -815,7 +829,7 @@ body.section-switching.up .animation-block{
 	height:16px;
 	width:16px;
 	border-radius:50%;
-	background:#F0F0F0;
+	background:#FFF8E8;
 	border:solid 1px #B6B6B6;
 	top:7px;
 	left:-48px;
@@ -845,7 +859,7 @@ body.section-switching.up .animation-block{
 }
 .testimonial > .icon{
 	font-size:64px;
-	color:#303F9F;
+	color:#674636;
 	opacity:.6;
 }
 .testimonial > p{
@@ -885,7 +899,7 @@ body.section-switching.up .animation-block{
 	height:6px;
 	width:36px;
 	margin-right:7px;
-	background:#303F9F;
+	background:#674636;
 	opacity:.4;
 }
 .testimonials-slider .owl-controls .owl-dot.active > span{
@@ -957,7 +971,7 @@ body.section-switching.up .animation-block{
 	bottom:0;
 	right:-10px;
 	left:-10px;
-	background:#303F9F;
+	background:#674636;
 	opacity:.9;
 	-webkit-transform:rotate(0deg) scale(0);
 	-moz-transform:rotate(0deg) scale(0);
@@ -1015,7 +1029,7 @@ body.section-switching.up .animation-block{
 }
 /*== Project Popup ==*/
 .mfp-bg{
-	background:#303F9F;
+	background:#674636;
 }
 .my-mfp-zoom-in .zoom-anim-dialog {
 	opacity: 0;
@@ -1181,7 +1195,7 @@ body.section-switching.up .animation-block{
 	transition:none;
 }
 .form-control:focus{
-	border-color:#303F9F;
+	border-color:#674636;
 }
 .contact-form .btn-custom{
 	padding:19px 35px;
@@ -1202,7 +1216,7 @@ body.section-switching.up .animation-block{
 	display:block;
 	float:left;
 	font-size:52px;
-	color:#303F9F;
+	color:#674636;
 }
 .contact-info > p{
 	float:left;
@@ -1273,8 +1287,8 @@ body.loaded #preloader .loader{
 	height:140px;
 	width:140px;
 	border:solid 4px #FFF;
-	border-top-color:#303F9F;
-	border-right-color:#303F9F;
+	border-top-color:#674636;
+	border-right-color:#674636;
 	border-radius:50%;
 	position:absolute;
 	top:50%;
