@@ -2,7 +2,10 @@
   "personalInfo": {
     "name": "Ujjwal Pathak",
     "position": "Software Engineer",
-    "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec nunc nec nunc.",
+    "bio": "Bio This is a simple example to highlight words in the string.",
+    "highlight_bio": ["simple", "highlight", "string"],
+    "highlight_about": ["simple", "highlight", "string"],
+    "about": "About This is a simple example to highlight words in the string.",
     "contact": {
       "phone": "+91-8448772593",
       "email": "pathak2002ujjwal@gmail.com",
@@ -18,6 +21,24 @@
     "graduationYear": 2024,
     "collegeTier": "Tier 3"
   },
+  "socials": [
+    {
+      "name": "linkedin",
+      "url": "https://www.linkedin.com/in/ujjwal-pathak-2002/"
+    },
+    {
+      "name": "github",
+      "url": ""
+    },
+    {
+      "name": "leetcode",
+      "url": ""
+    },
+    {
+      "name": "instagram",
+      "url": ""
+    }
+  ],
   "experience": [
     {
       "title": "Project Development Intern",

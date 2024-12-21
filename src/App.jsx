@@ -1,6 +1,9 @@
 import "./App.css";
+import Experience from "./components/Experience";
 import Heading from "./components/Heading";
+import Social from "./components/Social";
 import config from "./config.json";
+import HighlightText from "./components/HighlightText";
 
 function App() {
   return (
@@ -9,36 +12,40 @@ function App() {
         <h1 className="text-4xl font-semibold text-textPrimary">
           {config.personalInfo.name}
         </h1>
-        <h6 className="text-xl font-medium text-textPrimary">
+        <h6 className="my-2 text-xl font-medium text-textPrimary">
           {config.personalInfo.position}
         </h6>
-        <p className="text-textSecondary">{config.personalInfo.bio}</p>
-        {/* links */}
-        <div>
-          <ul>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Projects</li>
-          </ul>
-        </div>
+        <p className="text-textSecondary">
+          <HighlightText
+            text={config.personalInfo.about}
+            wordsToHighlight={config.personalInfo.highlight_about}
+          />
+        </p>
         {/* socials */}
-        <div>
-          <ul>
-            <li>
-              <a href="">Github</a>
-            </li>
-            <li>
-              <a href="">LinkedIn</a>
-            </li>
-            <li>
-              <a href="">Twitter</a>
-            </li>
-          </ul>
+        <div className="mt-12 flex justify-between">
+          {config.socials.map((social, index) => (
+            <Social key={index} {...social} />
+          ))}
         </div>
       </div>
       <div className="w-full md:w-1/2 md:overflow-y-scroll">
-      <Heading heading="About" />
-      <h6>{config.personalInfo.about}</h6>
+        <div className="text-textPrimary">
+          <Heading heading="About" />
+          <HighlightText
+            text={config.personalInfo.bio}
+            wordsToHighlight={config.personalInfo.highlight_bio}
+          />
+        </div>
+        <div>
+          <Heading heading="Experience" />
+          {config.experience.map((exp) => (
+            <Experience {...exp} />
+          ))}
+        </div>
+        <div className="">
+          <Heading heading="Projects" />
+          <h6>{config.personalInfo.about}</h6>
+        </div>
       </div>
     </div>
   );
