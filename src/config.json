@@ -1,0 +1,93 @@
+{
+  "personalInfo": {
+    "name": "Ujjwal Pathak",
+    "position": "Software Engineer",
+    "about": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien egestas tincidunt. Nullam nec nunc nec nunc.",
+    "contact": {
+      "phone": "+91-8448772593",
+      "email": "pathak2002ujjwal@gmail.com",
+      "location": "Hyderabad, India",
+      "portfolio": "https://ujjwalpathaak.github.io/portfolio/index.html"
+    },
+    "headline": "CS student with two internships, open source contributions, and a knack for problem-solving."
+  },
+  "education": {
+    "degree": "B.Tech in Computer Science",
+    "institution": "Jaypee University of Information Technology, Solan",
+    "cgpa": "8.2/10",
+    "graduationYear": 2024,
+    "collegeTier": "Tier 3"
+  },
+  "experience": [
+    {
+      "title": "Project Development Intern",
+      "company": "Darwinbox",
+      "duration": "December 2024 - Present",
+      "location": "Hyderabad",
+      "details": "Working on innovative solutions to streamline HR processes."
+    },
+    {
+      "title": "Full Stack Developer Intern",
+      "company": "Culinda Inc. (RecRoid)",
+      "duration": "January 2024 - August 2024",
+      "details": "Focused on auto-job-apply bots using FastAPI and React.js."
+    },
+    {
+      "title": "Full Stack Developer Intern",
+      "company": "Exponance Twirltree LLP",
+      "duration": "June 2023 - July 2023",
+      "details": "Developed web applications using React and Node.js."
+    }
+  ],
+  "skills": [
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "Next.js",
+    "React.js",
+    "Node.js",
+    "FastAPI",
+    "Express.js",
+    "MongoDB",
+    "MySQL",
+    "Socket.io",
+    "Docker",
+    "Ruby on Rails"
+  ],
+  "projects": [
+    {
+      "name": "Interviewlabs",
+      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
+      "technologies": [
+        "React.js",
+        "Express.js",
+        "Redux Toolkit",
+        "Socket.io",
+        "Docker"
+      ],
+      "url": "https://interviewlabs.netlify.app/"
+    },
+    {
+      "name": "Pintastic",
+      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "technologies": ["Next.js", "Firebase"],
+      "url": "https://pintastik.vercel.app/"
+    }
+  ],
+  "openSourceContributions": {
+    "organization": "WikiEducationFoundation",
+    "repository": "WikiEduDashboard",
+    "technologies": ["React", "MySQL", "Ruby on Rails"],
+    "pullRequestsMerged": 9
+  },
+  "achievements": [
+    "Participated in and achieved recognition in multiple hackathons.",
+    "Contributed extensively to open-source projects.",
+    "Attempted GSoC and learned valuable lessons from the experience."
+  ],
+  "currentInterests": [
+    "Exploring Machine Learning (BERT, Sentence Transformers)",
+    "Building scalable web applications",
+    "Innovating HR tech solutions"
+  ]
+}
