@@ -7,12 +7,12 @@ import HighlightText from "./components/HighlightText";
 
 function App() {
   return (
-    <div className="flex h-[100vh] w-[100vw] flex-col p-10 md:flex-row">
+    <div className="flex h-[100vh] w-[100vw] flex-col px-8 py-10 md:flex-row">
       <div className="w-full overscroll-none md:w-1/2 md:overflow-y-hidden">
-        <h1 className="text-4xl font-semibold text-textPrimary">
+        <h1 className="text-4xl font-semibold text-heading">
           {config.personalInfo.name}
         </h1>
-        <h6 className="my-2 text-xl font-medium text-textPrimary">
+        <h6 className="my-2 text-xl font-medium text-heading">
           {config.personalInfo.position}
         </h6>
         <p className="text-textSecondary">
@@ -29,7 +29,7 @@ function App() {
         </div>
       </div>
       <div className="w-full md:w-1/2 md:overflow-y-scroll">
-        <div className="text-textPrimary">
+        <div className="text-text">
           <Heading heading="About" />
           <HighlightText
             text={config.personalInfo.bio}

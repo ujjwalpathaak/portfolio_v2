@@ -1,15 +1,23 @@
 import React from "react";
 
-const Experience = ({ title, company, role, duration, location, details }) => {
+const Experience = ({ title, company, role, duration, location, details, technologies }) => {
   return (
     <div className="mb-10" key={company}>
-      <p className="text-textSecondary">{duration}</p>
-      <h6 className="text-textPrimary">
+      <p className="text-text">{duration}</p>
+      <h6 className="text-heading">
         {title} | {company}
       </h6>
-      <p className="text-textSecondary">{role}</p>
-      <p className="text-textSecondary">{location}</p>
-      <p className="text-textSecondary">{details}</p>
+      <p className="text-text">{role}</p>
+      <p className="text-text">{location}</p>
+      <p className="text-text">{details}</p>
+      <div className="mt-2">
+
+      {
+        technologies.map((technology) => (
+          <span className="text-skillText bg-skillBg px-2 py-1 mr-1 rounded-xl">{technology}</span>
+        ))
+      }
+      </div>
     </div>
   );
 };

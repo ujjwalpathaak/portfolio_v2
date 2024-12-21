@@ -45,19 +45,22 @@
       "company": "Darwinbox",
       "duration": "December 2024 - Present",
       "location": "Hyderabad",
-      "details": "Working on innovative solutions to streamline HR processes."
+      "details": "Working on innovative solutions to streamline HR processes.",
+      "technologies": ["React.js", "Node.js", "MongoDB"]
     },
     {
       "title": "Full Stack Developer Intern",
       "company": "Culinda Inc. (RecRoid)",
       "duration": "January 2024 - August 2024",
-      "details": "Focused on auto-job-apply bots using FastAPI and React.js."
+      "details": "Focused on auto-job-apply bots using FastAPI and React.js.",
+      "technologies": ["React.js", "Node.js", "MongoDB"]
     },
     {
       "title": "Full Stack Developer Intern",
       "company": "Exponance Twirltree LLP",
       "duration": "June 2023 - July 2023",
-      "details": "Developed web applications using React and Node.js."
+      "details": "Developed web applications using React and Node.js.",
+      "technologies": ["React.js", "Node.js", "MongoDB"]
     }
   ],
   "skills": [
