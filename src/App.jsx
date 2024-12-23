@@ -66,7 +66,7 @@ function App() {
       {/* Right Scrollable Content */}
       <div
         ref={scrollContainerRef}
-        className="w-full lg:w-1/2 lg:overflow-y-scroll"
+        className="w-full lg:w-1/2 lg:overflow-y-scroll no-scrollbar"
       >
         <section id="whoami" className="break-all text-text">
           <Heading heading="Who am I?" type="subheading" />

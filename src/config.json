@@ -44,7 +44,8 @@
       "duration": "January 2025 - Present",
       "location": "Hyderabad",
       "details": "At Darwinbox, I’m working at the intersection of technology and human resources, contributing to the development of innovative solutions for enterprise HR management. My role involves building scalable features tailored to the needs of enterprise clients, ensuring high performance and reliability. I’ve been focusing on streamlining workflows and improving user experiences in HR tech. Collaborating with a talented team, I’m exposed to the nuances of enterprise-grade software development, which has been a fantastic opportunity to learn and grow.",
-      "technologies": ["Angular", "Node.js", "PHP", "MongoDB", "AWS"]
+      "technologies": ["Angular", "Node.js", "PHP", "MongoDB", "AWS"],
+      "logo": "./darwinbox.png"
     },
     {
       "title": "Software Engineer Intern",
@@ -52,7 +53,8 @@
       "duration": "January 2024 - November 2024",
       "location": "Remote",
       "details": "At RecRoid, an early-stage startup under Culinda Inc., I’m part of a team revolutionizing recruitment with automation. My primary responsibility is developing auto-job-apply bots that can parse job listings, match candidate profiles, and automate application submissions. I’ve worked extensively with FastAPI for building robust back-end APIs and React.js for crafting responsive, user-friendly interfaces. One key challenge was ensuring the bots could adapt to various job platforms, which I tackled by creating flexible and scalable solutions. This role has sharpened my problem-solving abilities and given me valuable experience in a fast-paced startup environment where each line of code makes a tangible impact.",
-      "technologies": ["React.js", "Node.js", "MongoDB"]
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "logo": "./culinda.png"
     },
     {
       "title": "Full Stack Developer Intern",
@@ -60,7 +62,8 @@
       "duration": "June 2023 - July 2023",
       "location": "Remote",
       "details": "My internship at Exponance was a crash course in building dynamic web applications. I primarily worked with React.js to design intuitive user interfaces and Node.js to implement efficient back-end functionalities. One of my key contributions was optimizing the performance of a feature that handled large datasets, which significantly improved load times and user satisfaction. The experience taught me the importance of balancing functionality with user experience, as well as adhering to best practices for maintainable and scalable code. Collaborating with a diverse team also helped me understand how to deliver quality work under tight deadlines.",
-      "technologies": ["React.js", "Node.js", "MongoDB"]
+      "technologies": ["React.js", "Node.js", "MongoDB"],
+      "logo": "./exponance.png"
     }
   ],
   "projects": [
@@ -141,14 +144,16 @@
       "repository": "WikiEduDashboard",
       "details": "Contributing to the WikiEducation Dashboard under the Wikimedia Foundation was a deeply fulfilling experience. I submitted over 9 pull requests, all of which were successfully merged into the project. My work revolved around React.js, MySQL, and Ruby on Rails, where I fixed bugs, optimized existing features, and developed new functionalities to enhance the user experience for educators and students. One of my most impactful contributions was revamping the interface for tracking student contributions, making it more intuitive and efficient. This project exposed me to the collaborative world of open-source development, where I learned how to write code that meets global quality standards and addresses diverse user needs. It also taught me how to communicate effectively in a distributed team setting.",
       "technologies": ["Angular", "Node.js", "PHP", "MongoDB", "AWS"],
-      "pullRequestsMerged": 9
+      "pullRequestsMerged": 9,
+      "logo": "./wikiedu.svg"
     },
     {
       "organization": "Oppia",
       "repository": "web-app",
       "details": "Contributing to Oppia, an educational platform for students aged 7 to 14, was a fulfilling experience where I worked on impactful features and enhancements. I implemented a language toggle in the embedded player, enabling seamless language switching for course content, and added functionality to temporarily unpublish stories without deleting translations, enhancing content management flexibility. Additionally, I wrote comprehensive frontend tests in Jasmine to maintain robustness and quality across new features and resolved usability issues, such as blank prerequisite skills and confusing dropdowns, improving the overall user experience. This opportunity deepened my expertise in Angular.js and Google App Engine, while allowing me to make meaningful contributions to a tool that empowers global education.",
       "technologies": ["Angular", "Jasmine"],
-      "pullRequestsMerged": 4
+      "pullRequestsMerged": 4,
+      "logo": "./oppia.png"
     }
   ]
 }
