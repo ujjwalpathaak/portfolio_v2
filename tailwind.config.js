@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        heading: "#d9dfea",
-        text: "#90a0b9",
-        skillText: "#58dfce",
-        skillBg: "#152b39",
+        heading: "#000000",
+        text: "#898b8c  ",
+        skillText: "#F5F5F5",
+        skillBg: "#5e5959",
       },
     },
   },

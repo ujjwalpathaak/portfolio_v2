@@ -2,24 +2,18 @@
   "personalInfo": {
     "name": "Ujjwal Pathak",
     "position": "Software Engineer",
-    "bio": "Bio This is a simple example to highlight words in the string.",
-    "highlight_bio": ["simple", "highlight", "string"],
-    "highlight_about": ["simple", "highlight", "string"],
-    "about": "About This is a simple example to highlight words in the string.",
-    "contact": {
-      "phone": "+91-8448772593",
-      "email": "pathak2002ujjwal@gmail.com",
-      "location": "Hyderabad, India",
-      "portfolio": "https://ujjwalpathaak.github.io/portfolio/index.html"
-    },
-    "headline": "CS student with two internships, open source contributions, and a knack for problem-solving."
-  },
-  "education": {
-    "degree": "B.Tech in Computer Science",
-    "institution": "Jaypee University of Information Technology, Solan",
-    "cgpa": "8.2/10",
-    "graduationYear": 2024,
-    "collegeTier": "Tier 3"
+    "bio": "Hello! I am currently a final-year student pursuing a Bachelor of Technology in Computer Science Engineering at Jaypee University of Information Technology, with a CGPA of 8.2. I have recently relocated to Hyderabad, India and am enjoying the vibrant tech culture here while working as a Product Development Intern at Darwinbox. If you have any interesting opportunities, feel free to drop me a message at pathak2002ujjwal@gmail.com.",
+    "highlight_bio": [
+      "Computer Science Engineering",
+      "Jaypee University of Information Technology",
+      "Hyderabad",
+      "8.2",
+      "Darwinbox",
+      "pathak2002ujjwal@gmail.com",
+      "Product Development Intern"
+    ],
+    "highlight_about": [],
+    "about": "Who loves to build stuff for the web."
   },
   "socials": [
     {
@@ -37,46 +31,37 @@
     {
       "name": "instagram",
       "url": ""
+    },
+    {
+      "name": "twitter",
+      "url": ""
     }
   ],
   "experience": [
     {
       "title": "Project Development Intern",
       "company": "Darwinbox",
-      "duration": "December 2024 - Present",
+      "duration": "January 2025 - Present",
       "location": "Hyderabad",
-      "details": "Working on innovative solutions to streamline HR processes.",
-      "technologies": ["React.js", "Node.js", "MongoDB"]
+      "details": "At Darwinbox, I’m working at the intersection of technology and human resources, contributing to the development of innovative solutions for enterprise HR management. My role involves building scalable features tailored to the needs of enterprise clients, ensuring high performance and reliability. I’ve been focusing on streamlining workflows and improving user experiences in HR tech. Collaborating with a talented team, I’m exposed to the nuances of enterprise-grade software development, which has been a fantastic opportunity to learn and grow.",
+      "technologies": ["Angular", "Node.js", "PHP", "MongoDB", "AWS"]
     },
     {
-      "title": "Full Stack Developer Intern",
-      "company": "Culinda Inc. (RecRoid)",
-      "duration": "January 2024 - August 2024",
-      "details": "Focused on auto-job-apply bots using FastAPI and React.js.",
+      "title": "Software Engineer Intern",
+      "company": "Culinda Inc.",
+      "duration": "January 2024 - November 2024",
+      "location": "Remote",
+      "details": "At RecRoid, an early-stage startup under Culinda Inc., I’m part of a team revolutionizing recruitment with automation. My primary responsibility is developing auto-job-apply bots that can parse job listings, match candidate profiles, and automate application submissions. I’ve worked extensively with FastAPI for building robust back-end APIs and React.js for crafting responsive, user-friendly interfaces. One key challenge was ensuring the bots could adapt to various job platforms, which I tackled by creating flexible and scalable solutions. This role has sharpened my problem-solving abilities and given me valuable experience in a fast-paced startup environment where each line of code makes a tangible impact.",
       "technologies": ["React.js", "Node.js", "MongoDB"]
     },
     {
       "title": "Full Stack Developer Intern",
       "company": "Exponance Twirltree LLP",
       "duration": "June 2023 - July 2023",
-      "details": "Developed web applications using React and Node.js.",
+      "location": "Remote",
+      "details": "My internship at Exponance was a crash course in building dynamic web applications. I primarily worked with React.js to design intuitive user interfaces and Node.js to implement efficient back-end functionalities. One of my key contributions was optimizing the performance of a feature that handled large datasets, which significantly improved load times and user satisfaction. The experience taught me the importance of balancing functionality with user experience, as well as adhering to best practices for maintainable and scalable code. Collaborating with a diverse team also helped me understand how to deliver quality work under tight deadlines.",
       "technologies": ["React.js", "Node.js", "MongoDB"]
     }
-  ],
-  "skills": [
-    "C++",
-    "JavaScript",
-    "TypeScript",
-    "Next.js",
-    "React.js",
-    "Node.js",
-    "FastAPI",
-    "Express.js",
-    "MongoDB",
-    "MySQL",
-    "Socket.io",
-    "Docker",
-    "Ruby on Rails"
   ],
   "projects": [
     {
@@ -89,29 +74,81 @@
         "Socket.io",
         "Docker"
       ],
-      "url": "https://interviewlabs.netlify.app/"
+      "links": [
+        {
+          "name": "website",
+          "url": "https://interviewlabs.netlify.app/"
+        },
+        {
+          "name": "github",
+          "url": "https://interviewlabs.netlify.app/"
+        }
+      ],
+      "image": ""
     },
     {
       "name": "Pintastic",
       "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
       "technologies": ["Next.js", "Firebase"],
-      "url": "https://pintastik.vercel.app/"
+      "links": [
+        {
+          "name": "website",
+          "url": "https://interviewlabs.netlify.app/"
+        },
+        {
+          "name": "github",
+          "url": "https://interviewlabs.netlify.app/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "name": "JUIT Webkiosk API",
+      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "technologies": ["Next.js", "Firebase"],
+      "links": [
+        {
+          "name": "website",
+          "url": "https://interviewlabs.netlify.app/"
+        },
+        {
+          "name": "github",
+          "url": "https://interviewlabs.netlify.app/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "name": "CompilerConnect API",
+      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "technologies": ["Next.js", "Firebase"],
+      "links": [
+        {
+          "name": "website",
+          "url": "https://interviewlabs.netlify.app/"
+        },
+        {
+          "name": "github",
+          "url": "https://interviewlabs.netlify.app/"
+        }
+      ],
+      "image": ""
     }
   ],
-  "openSourceContributions": {
-    "organization": "WikiEducationFoundation",
-    "repository": "WikiEduDashboard",
-    "technologies": ["React", "MySQL", "Ruby on Rails"],
-    "pullRequestsMerged": 9
-  },
-  "achievements": [
-    "Participated in and achieved recognition in multiple hackathons.",
-    "Contributed extensively to open-source projects.",
-    "Attempted GSoC and learned valuable lessons from the experience."
-  ],
-  "currentInterests": [
-    "Exploring Machine Learning (BERT, Sentence Transformers)",
-    "Building scalable web applications",
-    "Innovating HR tech solutions"
+  "openSourceContributions": [
+    {
+      "organization": "WikiEducationFoundation",
+      "repository": "WikiEduDashboard",
+      "details": "Contributing to the WikiEducation Dashboard under the Wikimedia Foundation was a deeply fulfilling experience. I submitted over 9 pull requests, all of which were successfully merged into the project. My work revolved around React.js, MySQL, and Ruby on Rails, where I fixed bugs, optimized existing features, and developed new functionalities to enhance the user experience for educators and students. One of my most impactful contributions was revamping the interface for tracking student contributions, making it more intuitive and efficient. This project exposed me to the collaborative world of open-source development, where I learned how to write code that meets global quality standards and addresses diverse user needs. It also taught me how to communicate effectively in a distributed team setting.",
+      "technologies": ["Angular", "Node.js", "PHP", "MongoDB", "AWS"],
+      "pullRequestsMerged": 9
+    },
+    {
+      "organization": "Oppia",
+      "repository": "web-app",
+      "details": "Contributing to Oppia, an educational platform for students aged 7 to 14, was a fulfilling experience where I worked on impactful features and enhancements. I implemented a language toggle in the embedded player, enabling seamless language switching for course content, and added functionality to temporarily unpublish stories without deleting translations, enhancing content management flexibility. Additionally, I wrote comprehensive frontend tests in Jasmine to maintain robustness and quality across new features and resolved usability issues, such as blank prerequisite skills and confusing dropdowns, improving the overall user experience. This opportunity deepened my expertise in Angular.js and Google App Engine, while allowing me to make meaningful contributions to a tool that empowers global education.",
+      "technologies": ["Angular", "Jasmine"],
+      "pullRequestsMerged": 4
+    }
   ]
 }

@@ -7,7 +7,7 @@ const HighlightText = ({ text, wordsToHighlight }) => {
     return wordsToHighlight.some(
       (word) => word.toLowerCase() === part.toLowerCase(),
     ) ? (
-      <span key={index} style={{ color: "#c5cbd6" }}>
+      <span key={index} style={{ fontWeight: "400", color: "#242323" }}>
         {part}
       </span>
     ) : (
@@ -15,7 +15,7 @@ const HighlightText = ({ text, wordsToHighlight }) => {
     );
   });
 
-  return <p className="text-text" >{highlightedText}</p>;
+  return <p className="text-text">{highlightedText}</p>;
 };
 
 export default HighlightText;
