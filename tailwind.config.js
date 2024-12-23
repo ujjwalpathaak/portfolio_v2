@@ -3,9 +3,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        averia: ["Averia Serif Libre", "serif"],
+      },
       colors: {
         heading: "#000000",
-        text: "#898b8c  ",
+        text: "#898b8c",
         skillText: "#F5F5F5",
         skillBg: "#5e5959",
       },
