@@ -1,6 +1,6 @@
 function Navbar({ activeSection }) {
   return (
-    <div className="lg:flex-col hidden lg:flex">
+    <div className="hidden lg:flex lg:flex-col lg:justify-start">
       <a
         href="#whoami"
         className={`relative pb-1 ${

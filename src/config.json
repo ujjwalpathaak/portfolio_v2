@@ -2,7 +2,7 @@
   "personalInfo": {
     "name": "Ujjwal Pathak",
     "position": "Software Engineer",
-    "bio": "Hello! I am currently a final-year student pursuing a Bachelor of Technology in Computer Science Engineering at Jaypee University of Information Technology, with a CGPA of 8.2. I have recently relocated to Hyderabad, India and am enjoying the vibrant tech culture here while working as a Product Development Intern at Darwinbox. If you have any interesting opportunities, feel free to drop me a message at pathak2002ujjwal@gmail.com.",
+    "bio": "Hello! I am currently a final-year student pursuing a Bachelor of Technology in Computer Science Engineering at Jaypee University of Information Technology, with a CGPA of 8.2. I have recently relocated to Hyderabad, India and am enjoying the vibrant tech culture here while working as a Product Development Intern at Darwinbox.If you have any interesting opportunities, feel free to drop me a message at pathak2002ujjwal@gmail.com.",
     "highlight_bio": [
       "Computer Science Engineering",
       "Jaypee University of Information Technology",
@@ -48,7 +48,7 @@
       "logo": "./darwinbox.png"
     },
     {
-      "title": "Software Engineer Intern",
+      "title": "Software Developer Intern",
       "company": "Culinda Inc.",
       "duration": "January 2024 - November 2024",
       "location": "Remote",
@@ -87,7 +87,7 @@
           "url": "https://interviewlabs.netlify.app/"
         }
       ],
-      "image": ""
+      "image": "interviewlabs.png"
     },
     {
       "name": "Pintastic",
@@ -103,7 +103,7 @@
           "url": "https://interviewlabs.netlify.app/"
         }
       ],
-      "image": ""
+      "image": "./pintastic.png"
     },
     {
       "name": "JUIT Webkiosk API",
@@ -119,7 +119,7 @@
           "url": "https://interviewlabs.netlify.app/"
         }
       ],
-      "image": ""
+      "image": "juitwebkioskapi.png"
     },
     {
       "name": "CompilerConnect API",
@@ -148,8 +148,8 @@
       "logo": "./wikiedu.svg"
     },
     {
-      "organization": "Oppia",
-      "repository": "web-app",
+      "organization": "The Oppia Foundation",
+      "repository": "Oppia",
       "details": "Contributing to Oppia, an educational platform for students aged 7 to 14, was a fulfilling experience where I worked on impactful features and enhancements. I implemented a language toggle in the embedded player, enabling seamless language switching for course content, and added functionality to temporarily unpublish stories without deleting translations, enhancing content management flexibility. Additionally, I wrote comprehensive frontend tests in Jasmine to maintain robustness and quality across new features and resolved usability issues, such as blank prerequisite skills and confusing dropdowns, improving the overall user experience. This opportunity deepened my expertise in Angular.js and Google App Engine, while allowing me to make meaningful contributions to a tool that empowers global education.",
       "technologies": ["Angular", "Jasmine"],
       "pullRequestsMerged": 4,

@@ -3,7 +3,9 @@ import React from "react";
 const Heading = ({ heading, type }) => {
   if (type == "subheading") {
     return (
-      <h6 className="mb-8 mt-24 lg:mt-32 underline underline-offset-4 text-lg font-bold text-heading">{heading}</h6>
+      <h6 className="mb-8 mt-24 text-lg font-bold text-heading underline underline-offset-4 lg:mt-32">
+        {heading}
+      </h6>
     );
   }
   if (type == "name") {

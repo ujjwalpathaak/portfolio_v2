@@ -7,7 +7,13 @@ const HighlightText = ({ text, wordsToHighlight }) => {
     return wordsToHighlight.some(
       (word) => word.toLowerCase() === part.toLowerCase(),
     ) ? (
-      <span key={index} style={{ fontWeight: "400", color: "#242323" }}>
+      <span
+        key={index}
+        style={{
+          fontWeight: "400",
+          color: "#242323",
+        }}
+      >
         {part}
       </span>
     ) : (
@@ -15,7 +21,11 @@ const HighlightText = ({ text, wordsToHighlight }) => {
     );
   });
 
-  return <p className="text-text">{highlightedText}</p>;
+  return (
+    <div style={{ whiteSpace: "pre-line" }}>
+      <p className="text-text">{highlightedText}</p>
+    </div>
+  );
 };
 
 export default HighlightText;

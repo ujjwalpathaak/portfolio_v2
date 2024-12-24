@@ -9,8 +9,8 @@ export default {
       colors: {
         heading: "#000000",
         text: "#898b8c",
-        skillText: "#F5F5F5",
-        skillBg: "#5e5959",
+        skillText: "#909090",
+        skillBg: "#f3f3f3",
       },
     },
   },
