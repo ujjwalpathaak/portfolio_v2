@@ -16,39 +16,38 @@ function App() {
 
   const [showSplash, setShowSplash] = useState(true);
 
-  // Hide splash screen after 3 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowSplash(false);
-    }, 1000); // Adjust the time (in ms) for splash screen visibility
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
 
-  // useEffect(() => {
-  //   if (!showSplash) {
-  //     const scrollContainer = scrollContainerRef.current;
-  //     const sections = scrollContainer.querySelectorAll("section");
+  useEffect(() => {
+    if (!showSplash) {
+      const scrollContainer = scrollContainerRef.current;
+      const sections = scrollContainer.querySelectorAll("section");
 
-  //     const observer = new IntersectionObserver(
-  //       (entries) => {
-  //         entries.forEach((entry) => {
-  //           if (entry.isIntersecting) {
-  //             setActiveSection(`#${entry.target.id}`);
-  //           }
-  //         });
-  //       },
-  //       {
-  //         root: scrollContainer, // Use the scrollable container as the root
-  //         threshold: 0.6, // Trigger when 60% of the section is visible
-  //       },
-  //     );
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setActiveSection(`#${entry.target.id}`);
+            }
+          });
+        },
+        {
+          root: scrollContainer,
+          threshold: 0.5,
+        },
+      );
 
-  //     sections.forEach((section) => observer.observe(section));
+      sections.forEach((section) => observer.observe(section));
 
-  //     return () => observer.disconnect();
-  //   }
-  // }, [showSplash]);
+      return () => observer.disconnect();
+    }
+  }, [showSplash]);
 
   return (
     <>

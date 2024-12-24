@@ -18,23 +18,23 @@
   "socials": [
     {
       "name": "linkedin",
-      "url": "https://www.linkedin.com/in/ujjwal-pathak-2002/"
+      "url": "https://www.linkedin.com/in/ujjwalpathaak/"
     },
     {
       "name": "github",
-      "url": ""
+      "url": "https://github.com/ujjwalpathaak/"
     },
     {
       "name": "leetcode",
-      "url": ""
+      "url": "https://leetcode.com/u/ujjwalpathaak/"
     },
     {
       "name": "instagram",
-      "url": ""
+      "url": "https://www.instagram.com/ujjwalpathaak/"
     },
     {
       "name": "twitter",
-      "url": ""
+      "url": "https://x.com/ujjwalpathaak"
     }
   ],
   "experience": [
@@ -79,11 +79,15 @@
       ],
       "links": [
         {
-          "name": "website",
+          "img": "./github2.svg",
           "url": "https://interviewlabs.netlify.app/"
         },
         {
-          "name": "github",
+          "img": "./website.svg",
+          "url": "https://interviewlabs.netlify.app/"
+        },
+        {
+          "img": "./youtube.svg",
           "url": "https://interviewlabs.netlify.app/"
         }
       ],
@@ -95,11 +99,15 @@
       "technologies": ["Next.js", "Firebase"],
       "links": [
         {
-          "name": "website",
+          "img": "./github2.svg",
           "url": "https://interviewlabs.netlify.app/"
         },
         {
-          "name": "github",
+          "img": "./website.svg",
+          "url": "https://interviewlabs.netlify.app/"
+        },
+        {
+          "img": "./youtube.svg",
           "url": "https://interviewlabs.netlify.app/"
         }
       ],
@@ -111,31 +119,15 @@
       "technologies": ["Next.js", "Firebase"],
       "links": [
         {
-          "name": "website",
+          "img": "./github2.svg",
           "url": "https://interviewlabs.netlify.app/"
         },
         {
-          "name": "github",
+          "img": "./youtube.svg",
           "url": "https://interviewlabs.netlify.app/"
         }
       ],
       "image": "juitwebkioskapi.png"
-    },
-    {
-      "name": "CompilerConnect API",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "technologies": ["Next.js", "Firebase"],
-      "links": [
-        {
-          "name": "website",
-          "url": "https://interviewlabs.netlify.app/"
-        },
-        {
-          "name": "github",
-          "url": "https://interviewlabs.netlify.app/"
-        }
-      ],
-      "image": ""
     }
   ],
   "openSourceContributions": [
