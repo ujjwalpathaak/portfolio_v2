@@ -3,12 +3,12 @@ body {
 }
 
 ::selection {
-  background-color: #ffb6c1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
   color: #000000;
 }
 
 ::-moz-selection {
-  background-color: #ffb6c1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity, 1));
   color: #000000;
 }
 

@@ -51,7 +51,7 @@ function App() {
 
   return (
     <>
-        <div className="main-content flex h-[100vh] w-[100vw] flex-col px-8 py-10 font-averia lg:flex-row lg:px-28 lg:py-0">
+        <div className="main-content text-justify flex h-[100vh] w-[100vw] flex-col px-8 py-10 font-averia lg:flex-row lg:px-28 lg:py-0">
           {/* Left Sidebar */}
           <div className="w-full overscroll-none lg:ml-[calc(6vw)] lg:flex lg:w-[calc(42vw)] lg:flex-col lg:justify-between lg:overflow-y-hidden lg:py-24">
             <div>
@@ -82,7 +82,7 @@ function App() {
             ref={scrollContainerRef}
             className="no-scrollbar w-full lg:w-[calc(52vw)] lg:overflow-y-scroll"
           >
-            <section id="whoami" className="break-all text-text">
+            <section id="whoami" className=" text-text">
               <Heading heading="Who am I?" type="subheading" />
               <HighlightText
                 text={config.personalInfo.bio}

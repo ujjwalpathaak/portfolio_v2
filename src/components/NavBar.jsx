@@ -8,7 +8,7 @@ function Navbar({ activeSection }) {
         }`}
       >
         <span
-          className={`relative inline-block pr-6 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
+          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition  after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
             activeSection === "#whoami"
               ? "after:scale-x-100"
               : "after:scale-x-0"
@@ -24,7 +24,7 @@ function Navbar({ activeSection }) {
         }`}
       >
         <span
-          className={`relative inline-block pr-6 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
+          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition  after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
             activeSection === "#hustlemap"
               ? "after:scale-x-100"
               : "after:scale-x-0"
@@ -40,7 +40,7 @@ function Navbar({ activeSection }) {
         }`}
       >
         <span
-          className={`relative inline-block pr-6 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
+          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
             activeSection === "#opensourcework"
               ? "after:scale-x-100"
               : "after:scale-x-0"
@@ -56,7 +56,7 @@ function Navbar({ activeSection }) {
         }`}
       >
         <span
-          className={`relative inline-block pr-6 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
+          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
             activeSection === "#thingsihavemade"
               ? "after:scale-x-100"
               : "after:scale-x-0"

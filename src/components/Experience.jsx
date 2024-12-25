@@ -1,5 +1,6 @@
 import React from "react";
 import SkillTag from "./SkillTag";
+import HighlightText from "./HighlightText";
 
 const Experience = ({
   title,
@@ -9,6 +10,7 @@ const Experience = ({
   location,
   logo,
   details,
+  highlight_details,
   technologies,
 }) => {
   return (
@@ -30,7 +32,11 @@ const Experience = ({
         </div>
       </div>
       <p className="text-text">{role}</p>
-      <p className="mt-2 break-all text-text">{details}</p>
+      <p className="mt-2 text-justify text-text"> <HighlightText
+                text={details}
+                wordsToHighlight={highlight_details}
+              /></p>
+
       <div className="mt-2 flex flex-wrap">
         {technologies.map((technology) => (
           <SkillTag technology={technology} />
