@@ -9,11 +9,11 @@ const Heading = ({ heading, type }) => {
     );
   }
   if (type == "name") {
-    return <h1 className="text-5xl font-extrabold text-heading">{heading}</h1>;
+    return <h1 className="text-3xl lg:text-5xl font-extrabold text-heading">{heading}</h1>;
   }
   if (type == "position") {
     return (
-      <h1 className="mt-2 text-3xl font-extrabold text-heading">{heading}</h1>
+      <h1 className="mt-1 lg:mt-2 text-xl lg:text-3xl font-extrabold text-heading">{heading}</h1>
     );
   }
 };

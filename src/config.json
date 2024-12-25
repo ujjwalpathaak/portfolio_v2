@@ -2,6 +2,7 @@
   "personalInfo": {
     "name": "Ujjwal Pathak",
     "position": "Software Engineer",
+    "profile": "./profile.jpeg",
     "bio": "Hello! I am currently a final-year student pursuing a degree in Computer Science at Jaypee University of Information Technology. I have recently relocated to Hyderabad and am enjoying the vibrant tech culture here. I am currently working as a Product Development Intern at Darwinbox. If you have any interesting opportunities, feel free to drop me a message at pathak2002ujjwal@gmail.com or drop a message (click me)",
     "highlight_bio": {
       "Computer Science": null,
@@ -59,9 +60,10 @@
       "company": "Culinda Inc.",
       "duration": "January 2024 - November 2024",
       "location": "Remote",
-      "details": "Build RecRoid.com from scratch, an early-stage startup under Culinda Inc., I’m part of a team revolutionizing recruitment with automation. My primary responsibility is developing auto-job-apply bots that can parse job listings, match candidate profiles, and automate application submissions. I’ve worked extensively with FastAPI for building robust back-end APIs and React.js for crafting responsive, user-friendly interfaces. One key challenge was ensuring the bots could adapt to various job platforms, which I tackled by creating flexible and scalable solutions. This role has sharpened my problem-solving abilities and given me valuable experience in a fast-paced startup environment where each line of code makes a tangible impact.",
+      "details": "Build RecRoid.com from scratch, an early-stage startup under Culinda Inc. My primary responsibility was developing auto-job-apply bots that can fetch and apply to job opening parse job listings, match candidate profiles, and automate application submissions. I’ve worked extensively with FastAPI for building robust back-end APIs and React.js for crafting responsive, user-friendly interfaces. One key challenge was ensuring the bots could adapt to various job platforms, which I tackled by creating flexible and scalable solutions. This role has sharpened my problem-solving abilities and given me valuable experience in a fast-paced startup environment where each line of code makes a tangible impact.",
       "highlight_details": {
-        "RecRoid.com": "https://www.recroid.com/"
+        "RecRoid.com": "https://www.recroid.com/",
+        "Culinda Inc": null
       },
       "technologies": ["React.js", "Node.js", "MongoDB"],
       "logo": "./culinda.png"
@@ -148,85 +150,6 @@
         }
       ],
       "image": "./pintastic.png"
-    },
-    {
-      "name": "HireHive",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "highlight_description": {
-        "Computer Science Engineering": null,
-        "Jaypee University of Information Technology": "https://www.juit.ac.in/",
-        "Hyderabad": null,
-        "8.2": null,
-        "Darwinbox": "https://www.darwinbox.com/",
-        "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
-        "Product Development Intern": null
-      },
-      "technologies": ["Next.js", "Firebase"],
-      "links": [
-        {
-          "img": "./github2.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        },
-        {
-          "img": "./website.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        },
-        {
-          "img": "./youtube.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        }
-      ],
-      "image": "./pintastic.png"
-    },
-    {
-      "name": "Twaddle",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "highlight_description": {
-        "Computer Science Engineering": null,
-        "Jaypee University of Information Technology": "https://www.juit.ac.in/",
-        "Hyderabad": null,
-        "8.2": null,
-        "Darwinbox": "https://www.darwinbox.com/",
-        "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
-        "Product Development Intern": null
-      },
-      "technologies": ["Next.js", "Firebase"],
-      "links": [
-        {
-          "img": "./github2.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        },
-        {
-          "img": "./youtube.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        }
-      ],
-      "image": "juitwebkioskapi.png"
-    },
-    {
-      "name": "JUIT Webkiosk API",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "highlight_description": {
-        "Computer Science Engineering": null,
-        "Jaypee University of Information Technology": "https://www.juit.ac.in/",
-        "Hyderabad": null,
-        "8.2": null,
-        "Darwinbox": "https://www.darwinbox.com/",
-        "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
-        "Product Development Intern": null
-      },
-      "technologies": ["Next.js", "Firebase"],
-      "links": [
-        {
-          "img": "./github2.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        },
-        {
-          "img": "./youtube.svg",
-          "url": "https://interviewlabs.netlify.app/"
-        }
-      ],
-      "image": "juitwebkioskapi.png"
     }
   ],
   "openSourceContributions": [

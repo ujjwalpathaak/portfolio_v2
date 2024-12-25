@@ -20,14 +20,14 @@ const HighlightText = ({ text, wordsToHighlight }) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="relative inline-block text-gray-900 font-medium group"
+          className="relative text-gray-900 font-medium group"
           style={{
             position: "relative",
             fontWeight: "400",
             color: "#242323",
           }}
         >
-         <span className="relative underline z-10">
+         <span className="relative underline z-10 ">
           {part}
           </span>
           <span className="absolute inset-0 bg-yellow-300 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100 z-0"></span>
@@ -51,7 +51,7 @@ const HighlightText = ({ text, wordsToHighlight }) => {
 
   return (
     <div style={{ whiteSpace: "pre-line" }}>
-      <p className="text-text">{highlightedText}</p>
+      <p className="text-text break-all lg:break-normal">{highlightedText}</p>
     </div>
   );
 };

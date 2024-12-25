@@ -4,11 +4,11 @@ import HighlightText from "./HighlightText";
 
 const Projects = ({ name, description, highlight_descripion, technologies, links, image }) => {
   return (
-    <div className="mb-10 flex flex-col items-center lg:flex-row" key={name}>
-      <div className="w-full mb-3 lg:mb-0 lg:mr-6 lg:w-1/3">
+    <div className="mb-10 flex flex-col items-center" key={name}>
+      <div className="w-full mb-3 lg:w-full lg:mb-6">
         <img className="" src={image} alt={name}></img>
       </div>
-      <div className="w-full lg:w-2/3">
+      <div className="w-full">
         <h6 className="text-xl font-bold text-heading">{name}</h6>
         <p className="text-text"><HighlightText text={description} wordsToHighlight={highlight_descripion} /></p>
         <div className="mt-2 flex flex-wrap">

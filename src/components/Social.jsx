@@ -3,7 +3,7 @@ import React from "react";
 const Social = ({ name, url }) => {
   return (
     <a
-      className="relative flex items-center justify-center h-8 w-8 transition-transform duration-300 ease-in-out hover:scale-110 lg:bottom-0 lg:mr-6 group"
+      className="relative flex items-center lg:justify-center h-7 lg:h-8 w-7 lg:w-8 transition-transform duration-300 ease-in-out hover:scale-110 lg:bottom-0 lg:mr-6 group"
       href={url}
       target="_blank"
       rel="noopener noreferrer"

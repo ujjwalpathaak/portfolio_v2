@@ -1,70 +1,45 @@
 function Navbar({ activeSection }) {
   return (
     <div className="hidden lg:flex lg:flex-col lg:justify-start">
-      <a
-        href="#whoami"
-        className={`relative pb-1 ${
-          activeSection === "#whoami" ? "font-bold" : "text-gray-500"
-        }`}
-      >
-        <span
-          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition  after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
-            activeSection === "#whoami"
-              ? "after:scale-x-100"
-              : "after:scale-x-0"
+      {[
+        { id: "#whoami", label: "Who am I?" },
+        { id: "#hustlemap", label: "Hustle Map" },
+        { id: "#opensourcework", label: "Open-Source Work" },
+        { id: "#thingsihavemade", label: "Things I have made" },
+      ].map(({ id, label }) => (
+        <a
+          key={id}
+          href={id}
+          className={`relative pb-1 ${
+            activeSection === id ? "font-bold" : "text-gray-500"
           }`}
         >
-          Who am I?
-        </span>
-      </a>
-      <a
-        href="#hustlemap"
-        className={`relative pb-1 ${
-          activeSection === "#hustlemap" ? "font-bold" : "text-gray-500"
-        }`}
-      >
-        <span
-          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition  after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
-            activeSection === "#hustlemap"
-              ? "after:scale-x-100"
-              : "after:scale-x-0"
-          }`}
-        >
-          Hustle Map
-        </span>
-      </a>
-      <a
-        href="#opensourcework"
-        className={`relative pb-1 ${
-          activeSection === "#opensourcework" ? "font-bold" : "text-gray-500"
-        }`}
-      >
-        <span
-          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
-            activeSection === "#opensourcework"
-              ? "after:scale-x-100"
-              : "after:scale-x-0"
-          }`}
-        >
-          Open-Source Work
-        </span>
-      </a>
-      <a
-        href="#thingsihavemade"
-        className={`relative pb-1 ${
-          activeSection === "#thingsihavemade" ? "font-bold" : "text-gray-500"
-        }`}
-      >
-        <span
-          className={`relative inline-block pr-6 hover:text-heading hover:font-bold transition after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-left after:bg-heading after:transition-transform after:duration-300 ${
-            activeSection === "#thingsihavemade"
-              ? "after:scale-x-100"
-              : "after:scale-x-0"
-          }`}
-        >
-          Things I have made
-        </span>
-      </a>
+          <span className="relative inline-block pr-6 group">
+            {/* Yellow Swipe Background */}
+            <span
+              className={`absolute inset-0 bg-yellow-300 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100 ${
+                activeSection === id ? "scale-x-100" : ""
+              }`}
+            ></span>
+
+            {/* Underline */}
+            <span
+              className={`absolute bottom-0 left-0 h-[2px] w-full bg-heading transform origin-left transition-all duration-300 ${
+                activeSection === id ? "scale-x-100" : "scale-x-0"
+              }`}
+            ></span>
+
+            {/* Text */}
+            <span
+              className={`relative z-10 hover:font-bold transition ${
+                activeSection === id ? "text-heading font-bold" : ""
+              }`}
+            >
+              {label}
+            </span>
+          </span>
+        </a>
+      ))}
     </div>
   );
 }
