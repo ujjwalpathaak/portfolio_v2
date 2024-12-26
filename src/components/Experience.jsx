@@ -33,15 +33,17 @@ const Experience = ({
       </div>
       <p className="text-text">{role}</p>
       <p className="mt-2 text-justify text-text"> <HighlightText
-                text={details}
-                wordsToHighlight={highlight_details}
-              /></p>
-
-      <div className="mt-2 flex flex-wrap">
-        {technologies.map((technology) => (
-          <SkillTag technology={technology} />
-        ))}
-      </div>
+        text={details}
+        wordsToHighlight={highlight_details}
+      /></p>
+      {technologies && (
+        <div className="mt-2 flex flex-wrap">
+          {technologies.map((technology) => (
+            <SkillTag technology={technology} />
+          ))}
+        </div>
+      )
+      }
     </div>
   );
 };
