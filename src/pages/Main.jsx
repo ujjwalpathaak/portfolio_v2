@@ -103,14 +103,13 @@ const Main = () => {
                         <OpenSource {...exp} />
                     ))}
                 </section>
-                <section id="thingsihavemade" className="">
+                <section id="thingsihavemade" className="mb-[10vh]">
                     <Heading heading="Things I have made" type="subheading" />
                     {config.projects.map((exp) => (
                         <Project {...exp} />
                     ))}
                     <ExternalLink text="Go to Archive" link="/all/projects" />
                 </section>
-                <Footer />
             </div>
         </div>
     )

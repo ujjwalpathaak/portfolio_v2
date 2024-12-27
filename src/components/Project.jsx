@@ -4,11 +4,11 @@ import HighlightText from "./HighlightText";
 
 const Projects = ({ name, description, highlight_descripion, technologies, links, image }) => {
   return (
-    <div className="mb-10 flex items-start" key={name}>
-      <div className="w-1/4 mb-3 mr-6 lg:mb-6">
+    <div className="mb-10 flex flex-col lg:flex-row items-start" key={name}>
+      <div className="w-full lg:w-1/4 mb-3 lg:mr-6 lg:mb-6">
         <img className="" src={image} alt={name}></img>
       </div>
-      <div className="w-3/4">
+      <div className="w-full lg:w-3/4">
         <h6 className="text-xl justify-between items-center flex font-bold text-heading">
           <div>
           {name}

@@ -180,21 +180,37 @@
     {
       "name": "Interviewlabs",
       "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
+      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
       "github": ""
     },
     {
       "name": "Pintastic",
       "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
       "github": ""
     },
     {
       "name": "Interviewlabs",
       "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
+      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
       "github": ""
     },
     {
       "name": "Pintastic",
       "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
+      "github": ""
+    },
+    {
+      "name": "Interviewlabs",
+      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
+      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
+      "github": ""
+    },
+    {
+      "name": "Pintastic",
+      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
       "github": ""
     }
   ]
