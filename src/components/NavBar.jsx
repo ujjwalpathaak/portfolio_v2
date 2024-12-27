@@ -14,17 +14,17 @@ function Navbar({ activeSection }) {
             activeSection === id ? "font-bold" : "text-gray-500"
           }`}
         >
-          <span className="relative inline-block pr-6 group">
+          <span className="group relative inline-block pr-6">
             {/* Yellow Swipe Background */}
             <span
-              className={`absolute inset-0 bg-yellow-300 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100 ${
+              className={`absolute inset-0 origin-left scale-x-0 transform bg-yellow-300 transition-transform duration-300 group-hover:scale-x-100 ${
                 activeSection === id ? "scale-x-100" : ""
               }`}
             ></span>
 
             {/* Underline */}
             <span
-              className={`absolute bottom-0 left-0 h-[2px] w-full bg-heading transform origin-left transition-all duration-300 ${
+              className={`absolute bottom-0 left-0 h-[2px] w-full origin-left transform bg-heading transition-all duration-300 ${
                 activeSection === id ? "scale-x-100" : "scale-x-0"
               }`}
             ></span>
@@ -32,7 +32,7 @@ function Navbar({ activeSection }) {
             {/* Text */}
             <span
               className={`relative z-10 transition ${
-                activeSection === id ? "text-heading font-bold" : ""
+                activeSection === id ? "font-bold text-heading" : ""
               }`}
             >
               {label}

@@ -5,11 +5,14 @@ const HighlightText = ({ text, wordsToHighlight }) => {
   const safeWordsToHighlight = wordsToHighlight || {};
 
   // Create a RegExp pattern from the object keys
-  const regex = new RegExp(`(${Object.keys(safeWordsToHighlight).join("|")})`, "gi");
+  const regex = new RegExp(
+    `(${Object.keys(safeWordsToHighlight).join("|")})`,
+    "gi",
+  );
 
   const highlightedText = text.split(regex).map((part, index) => {
     const matchingWord = Object.keys(safeWordsToHighlight).find(
-      (word) => word.toLowerCase() === part.toLowerCase()
+      (word) => word.toLowerCase() === part.toLowerCase(),
     );
 
     if (matchingWord) {
@@ -20,17 +23,15 @@ const HighlightText = ({ text, wordsToHighlight }) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="relative text-gray-900 font-medium group"
+          className="group relative font-medium text-gray-900"
           style={{
             position: "relative",
             fontWeight: "400",
             color: "#242323",
           }}
         >
-         <span className="relative underline z-10 ">
-          {part}
-          </span>
-          <span className="absolute inset-0 bg-yellow-300 transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100 z-0"></span>
+          <span className="relative z-10 underline">{part}</span>
+          <span className="absolute inset-0 z-0 origin-left scale-x-0 transform bg-yellow-300 transition-transform duration-300 group-hover:scale-x-100"></span>
         </a>
       ) : (
         <span
@@ -51,7 +52,7 @@ const HighlightText = ({ text, wordsToHighlight }) => {
 
   return (
     <div style={{ whiteSpace: "pre-line" }}>
-      <p className="text-text break-all lg:break-normal">{highlightedText}</p>
+      <p className="break-all text-text lg:break-normal">{highlightedText}</p>
     </div>
   );
 };

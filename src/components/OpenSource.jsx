@@ -13,8 +13,13 @@ const OpenSource = (prop) => {
         />
         <h6 className="text-xl font-bold text-heading">{prop.organization}</h6>
       </div>
-      <p className="mt-2 text-text"><HighlightText text={prop.details} wordsToHighlight={prop.highlight_details} /></p>
-      
+      <p className="mt-2 text-text">
+        <HighlightText
+          text={prop.details}
+          wordsToHighlight={prop.highlight_details}
+        />
+      </p>
+
       <div className="mt-2 flex flex-wrap">
         {prop.technologies.map((technology) => (
           <SkillTag technology={technology} />

@@ -4,7 +4,7 @@ const SkillTag = ({ small, technology }) => {
   return (
     <>
       {small ? (
-        <span className="text-xs mb-1 rounded-lg bg-skillBg px-1 text-center py-1 text-skillText">
+        <span className="mb-1 rounded-lg bg-skillBg px-1 py-1 text-center text-xs text-skillText">
           {technology}
         </span>
       ) : (

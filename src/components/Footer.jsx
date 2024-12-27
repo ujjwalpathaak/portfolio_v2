@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
-  return (
-    <div className='h-[10vh] fle'>Ujjwal Pathak.</div>
-  )
-}
+  return <div className="fle h-[10vh]">Ujjwal Pathak.</div>;
+};
 
-export default Footer
+export default Footer;

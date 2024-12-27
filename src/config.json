@@ -50,8 +50,7 @@
       "duration": "January 2025 - Present",
       "location": "Hyderabad",
       "details": "To start soon.",
-      "highlight_details": {
-      },
+      "highlight_details": {},
       "technologies": null,
       "logo": "./darwinbox.png"
     },
@@ -100,12 +99,7 @@
         "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
         "Product Development Intern": null
       },
-      "technologies": [
-        "React.js",
-        "Express.js",
-        "Socket.io",
-        "Docker"
-      ],
+      "technologies": ["React.js", "Express.js", "Socket.io", "Docker"],
       "links": [
         {
           "img": "./github2.svg",
@@ -170,7 +164,7 @@
       "details": "#1234 - Contributing to Oppia, an educational platform for students aged 7 to 14, was a fulfilling experience.\nI worked on impactful features and enhancements. I implemented a language toggle in the embedded player, enabling seamless language switching for course content, and added functionality to temporarily unpublish stories without deleting translations, enhancing content management flexibility. Additionally, I wrote comprehensive frontend tests in Jasmine to maintain robustness and quality across new features and resolved usability issues, such as blank prerequisite skills and confusing dropdowns, improving the overall user experience. This opportunity deepened my expertise in Angular.js and Google App Engine, while allowing me to make meaningful contributions to a tool that empowers global education.",
       "highlight_details": {
         "#1234": "https://www.juit.ac.in/"
-    },
+      },
       "technologies": ["Angular", "Jasmine"],
       "pullRequestsMerged": 4,
       "logo": "./oppia.png"
