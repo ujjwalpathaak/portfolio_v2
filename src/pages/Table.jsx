@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Table = ({data2}) => {
   // to remove
@@ -10,7 +11,8 @@ const Table = ({data2}) => {
   ]);
 
   return (
-    <div className="p-6 min-h-screen flex justify-center items-start mt-[10vh]">
+    <div className="p-6 min-h-screen flex flex-col justify-start items-center mt-[10vh]">
+      <Link to='/'>Go Back</Link>
       <table className="min-w-full ">
         <thead className="">
           <tr>

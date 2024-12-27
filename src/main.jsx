@@ -6,7 +6,6 @@ import Table from "./pages/Table.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <App /> */}
-    <Table />
+    <App />
   </StrictMode>,
 );
