@@ -175,5 +175,27 @@
       "pullRequestsMerged": 4,
       "logo": "./oppia.png"
     }
+  ],
+  "project_archive": [
+    {
+      "name": "Interviewlabs",
+      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
+      "github": ""
+    },
+    {
+      "name": "Pintastic",
+      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "github": ""
+    },
+    {
+      "name": "Interviewlabs",
+      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
+      "github": ""
+    },
+    {
+      "name": "Pintastic",
+      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "github": ""
+    }
   ]
 }

@@ -9,6 +9,8 @@ import Project from "./components/Project";
 import OpenSource from "./components/OpenSource";
 import Navbar from "./components/NavBar";
 import "./SplashScreen.css";
+import ExternalLink from "./components/ExternalLink";
+import Footer from "./components/Footer";
 
 function App() {
   const [activeSection, setActiveSection] = useState("");
@@ -109,7 +111,9 @@ function App() {
             {config.projects.map((exp) => (
               <Project {...exp} />
             ))}
+            <ExternalLink text="Go to Archive" link="/all/projects" />
           </section>
+          <Footer />
         </div>
       </div>
     </>

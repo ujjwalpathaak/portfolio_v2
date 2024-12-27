@@ -31,7 +31,7 @@ function Navbar({ activeSection }) {
 
             {/* Text */}
             <span
-              className={`relative z-10 hover:font-bold transition ${
+              className={`relative z-10 transition ${
                 activeSection === id ? "text-heading font-bold" : ""
               }`}
             >
