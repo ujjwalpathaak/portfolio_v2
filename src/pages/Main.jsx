@@ -108,7 +108,7 @@ const Main = () => {
                     {config.projects.map((exp) => (
                         <Project {...exp} />
                     ))}
-                    <ExternalLink text="Go to Archive" link="/all/projects" />
+                    <ExternalLink text="Go to Project Archive →" link="/all/projects" />
                 </section>
             </div>
         </div>

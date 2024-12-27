@@ -16,7 +16,7 @@ const Table = ({ data2 }) => {
   return (
     <div className="flex flex-col font-averia justify-start items-center w-[100vw] h-[100vh]">
       <div className="h-[20vh] w-3/4 flex gap-2 flex-col justify-end">
-        <ExternalLink text="Go Back" link="/" />
+        <ExternalLink text="← Go Back" link="/" />
         <Heading heading="All Projects" type="name" />
       </div>
 
