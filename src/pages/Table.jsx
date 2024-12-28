@@ -17,7 +17,7 @@ const Table = () => {
           <thead className="sticky top-0 z-10 border-y bg-white">
             <tr>
               <th className="px-4 py-3 text-left">Name</th>
-              <th className="px-4 py-3 text-left">Description</th>
+              <th className="px-4 py-3 text-left hidden lg:block ">Description</th>
               <th className="px-4 py-3 text-left">Repository</th>
             </tr>
           </thead>
@@ -28,7 +28,7 @@ const Table = () => {
               ) => (
                 <tr key={row.id} className="border-y">
                   <td className="px-4 py-3">{row.name}</td>
-                  <td className="flex-col break-all px-4 py-3 text-xs lg:break-normal lg:text-sm">
+                  <td className="flex-col break-all px-4 py-3 text-xs hidden lg:block lg:break-normal lg:text-sm">
                     {row.description}
                     <div className="mt-1 hidden flex-row flex-wrap items-center lg:flex lg:py-3">
                       {row.technology.map((tech, index) => (
