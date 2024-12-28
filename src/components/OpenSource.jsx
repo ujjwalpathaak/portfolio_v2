@@ -5,7 +5,7 @@ import PullRequestsOverview from "./PullRequestOverview";
 
 const OpenSource = (prop) => {
   return (
-    <div className="mb-10">
+    <div className="mb-10" id={prop.repository}>
       <div className="flex">
         <img
           src={prop.logo}
