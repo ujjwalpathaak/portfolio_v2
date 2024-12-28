@@ -1,18 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import ExternalLink from "../components/ExternalLink";
 import Heading from "../components/Heading";
 import personalInformation from "../config.json"; // Fixed typo here
 import SkillTag from "../components/SkillTag";
 
-const Table = ({ data2 }) => {
-  const [data, setData] = useState([
-    { id: 1, name: "Alice", age: 25, role: "Developer" },
-    { id: 2, name: "Bob", age: 30, role: "Designer" },
-    { id: 3, name: "Charlie", age: 22, role: "Tester" },
-    { id: 4, name: "Diana", age: 28, role: "Manager" },
-  ]);
-
+const Table = () => {
   return (
     <div className="flex h-[100vh] w-[100vw] flex-col items-center justify-start font-averia">
       <div className="ml-6 flex h-[20vh] w-full flex-col justify-end gap-2 lg:ml-0 lg:w-3/4">
@@ -54,6 +46,7 @@ const Table = ({ data2 }) => {
                   <td className="px-4 py-3">
                     <a
                       href={row.github}
+                      target="_blank"
                       rel="noreferrer noopener"
                       className="group relative inline-block w-fit italic text-black transition duration-300 hover:bg-yellow-300"
                     >

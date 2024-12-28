@@ -1,6 +1,7 @@
 import React from "react";
 import SkillTag from "./SkillTag";
 import HighlightText from "./HighlightText";
+import PullRequestsOverview from "./PullRequestOverview";
 
 const OpenSource = (prop) => {
   return (
@@ -13,14 +14,11 @@ const OpenSource = (prop) => {
         />
         <h6 className="text-xl font-bold text-heading">{prop.organization}</h6>
       </div>
-      <p className="mt-2 text-text">
-        <HighlightText
-          text={prop.details}
-          wordsToHighlight={prop.highlight_details}
-        />
-      </p>
-
-      <div className="mt-2 flex flex-wrap">
+      <div className="mt-2 mb-6">
+      <HighlightText text={prop.introduction} wordsToHighlight={prop.highlight_introduction} />
+      </div>
+      <PullRequestsOverview details={prop.details} highlight_details={prop.highlight_details} />
+      <div className="mt-4 flex flex-wrap">
         {prop.technologies.map((technology) => (
           <SkillTag technology={technology} />
         ))}

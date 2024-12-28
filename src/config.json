@@ -59,10 +59,19 @@
       "company": "Culinda Inc.",
       "duration": "January 2024 - November 2024",
       "location": "Remote",
-      "details": "Build RecRoid.com from scratch, an early-stage startup under Culinda Inc. My primary responsibility was developing auto-job-apply bots that can fetch and apply to job opening parse job listings, match candidate profiles, and automate application submissions. I’ve worked extensively with FastAPI for building robust back-end APIs and React.js for crafting responsive, user-friendly interfaces. One key challenge was ensuring the bots could adapt to various job platforms, which I tackled by creating flexible and scalable solutions. This role has sharpened my problem-solving abilities and given me valuable experience in a fast-paced startup environment where each line of code makes a tangible impact.",
+      "details": "I worked extensively on the backend development, automation, and API integration for RecRoid.com. I leveraged Hume AI to analyze AI-based interview recordings across 20+ metrics, improving the candidate assessment process. I developed auto-job-apply bots for over 5 job portals, automating the job application process and saving significant time. These bots were configured to run daily Cron jobs using GitHub Actions and deployed on Cloud Functions and browserless infrastructure. Additionally, I integrated OpenAI for customized job application responses, extracted hidden recruiter details for automating cold emails, and implemented promo code functionality with Razorpay and Stripe payment gateways for discounts and free trials.",
       "highlight_details": {
         "RecRoid.com": "https://www.recroid.com/",
-        "Culinda Inc": null
+        "Hume AI": "https://www.hume.ai/",
+        "browserless": "https://www.browserless.io/",
+        "20+": null,
+        "Cron jobs": null,
+        "OpenAI": null,
+        "5": null,
+        "GitHub Actions": null,
+        "Cloud Functions": null,
+        "Razorpay": "https://razorpay.com/",
+        "Stripe": "https://stripe.com/"
       },
       "technologies": ["React.js", "Node.js", "MongoDB"],
       "logo": "./culinda.png"
@@ -72,15 +81,11 @@
       "company": "Exponance Twirltree LLP",
       "duration": "June 2023 - July 2023",
       "location": "Remote",
-      "details": "My internship at Exponance was a crash course in building dynamic web applications. I primarily worked with React.js to design intuitive user interfaces and Node.js to implement efficient back-end functionalities. One of my key contributions was optimizing the performance of a feature that handled large datasets, which significantly improved load times and user satisfaction. The experience taught me the importance of balancing functionality with user experience, as well as adhering to best practices for maintainable and scalable code. Collaborating with a diverse team also helped me understand how to deliver quality work under tight deadlines.",
+      "details": "I designed and developed a comprehensive Staff Attendance System that streamlined the attendance tracking process by building RESTful APIs. This automation reduced manual work by more than 50%, improving efficiency and accuracy. To enhance security, I integrated JWT authentication, ensuring secure access and data integrity.",
       "highlight_details": {
-        "Computer Science Engineering": null,
-        "Jaypee University of Information Technology": "https://www.juit.ac.in/",
-        "Hyderabad": null,
-        "8.2": null,
-        "Darwinbox": "https://www.darwinbox.com/",
-        "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
-        "Product Development Intern": null
+        "RESTful APIs": "https://www.google.com/search?q=RESTful+APIs",
+        "50%": null,
+        "JWT": "https://jwt.io/"
       },
       "technologies": ["React.js", "Node.js", "MongoDB"],
       "logo": "./exponance.png"
@@ -89,21 +94,12 @@
   "projects": [
     {
       "name": "Interviewlabs",
-      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
-      "highlight_description": {
-        "Computer Science Engineering": null,
-        "Jaypee University of Information Technology": "https://www.juit.ac.in/",
-        "Hyderabad": null,
-        "8.2": null,
-        "Darwinbox": "https://www.darwinbox.com/",
-        "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
-        "Product Development Intern": null
-      },
-      "technologies": ["React.js", "Express.js", "Socket.io", "Docker"],
+      "description": "I created a C++ interview platform that enables smooth video calls using WebRTC (simple-peer) and real-time IDE collaboration with Socket.io. The platform runs C++ code securely in the cloud using Docker and child processes.",
+      "technologies": ["React.js", "Express.js", "WebRTC", "Socket.io", "Docker"],
       "links": [
         {
           "img": "./github2.svg",
-          "url": "https://interviewlabs.netlify.app/"
+          "url": "https://github.com/ujjwalpathaak/interviewlabs"
         },
         {
           "img": "./website.svg",
@@ -111,14 +107,14 @@
         },
         {
           "img": "./youtube.svg",
-          "url": "https://interviewlabs.netlify.app/"
+          "url": "https://www.youtube.com/watch?v=xdfgh-DcGBo"
         }
       ],
       "image": "interviewlabs.png"
     },
     {
       "name": "Pintastic",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
+      "description": "I developed a Pinterest-like pin-sharing platform using Firebase for user data and pin storage. I also added Chrome Extension support, allowing users to post pins from other websites, which boosted user engagement by 50%.",
       "highlight_description": {
         "Computer Science Engineering": null,
         "Jaypee University of Information Technology": "https://www.juit.ac.in/",
@@ -148,22 +144,42 @@
   ],
   "openSourceContributions": [
     {
-      "organization": "WikiEducationFoundation",
+      "organization": "Wikimedia Foundation",
       "repository": "WikiEduDashboard",
-      "details": "#1234 - Contributing to the WikiEducation Dashboard under the Wikimedia Foundation was a deeply fulfilling experience.\nI submitted over 9 pull requests, all of which were successfully merged into the project. My work revolved around React.js, MySQL, and Ruby on Rails, where I fixed bugs, optimized existing features, and developed new functionalities to enhance the user experience for educators and students. One of my most impactful contributions was revamping the interface for tracking student contributions, making it more intuitive and efficient. This project exposed me to the collaborative world of open-source development, where I learned how to write code that meets global quality standards and addresses diverse user needs. It also taught me how to communicate effectively in a distributed team setting.",
-      "highlight_details": {
-        "#1234": "https://www.juit.ac.in/"
+      "introduction": "The Wiki Education Dashboard is a web application that supports education assignments, edit-a-thons, and other editing projects. It provides data and course management features for groups of editors — instructors, students, and others — who are working on Wikipedia, Wikidata, and other Wikimedia wikis.",
+      "highlight_introduction": {
+        "Wiki Education Dashboard": "https://github.com/WikiEducationFoundation/WikiEduDashboard",
+        "Wikipedia": "https://www.wikipedia.org/",
+        "Wikidata": "https://www.wikidata.org/wiki/Wikidata:Main_Page",
+        "Wikimedia wikis": "https://www.wikimedia.org/"
       },
-      "technologies": ["Angular", "Node.js", "PHP", "MongoDB", "AWS"],
-      "pullRequestsMerged": 9,
+      "details": "#5541 - Addressed a bug occurring when users tried to select a time before selecting the date while creating a new course.\n#5538 - Converted dashboard icons from font files to SVGs, including testing the method of extracting SVGs.\n#5542 - Continued the conversion of icons to SVGs and converted one component to a functional component.\n#5562 - Completed the conversion of all remaining icons to SVGs and gained experience with server-side rendering.\n#5544 - Added a UI feature providing username selection advice before users are directed to Wikipedia for account creation.\n#5583 - Simplified program deletion directly from the campaign and explored backend routing and controllers.\n#5638 - Implemented a feature to prompt users about adding instructors and sending reminder emails.\n#5714 - Developed a feature to show specific featured campaigns on the explore page based on settings, with feature tests.\n#4712 - Moved the training update process to Sidekiq, optimizing resource usage during the /reload_training workflow.",
+      "highlight_details": {
+        "#5541": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5541",
+        "#5538": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5538",
+        "#5542": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5542",
+        "#5562": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5562",
+        "#5544": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5544",
+        "#5583": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5583",
+        "#5638": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5638",
+        "#5714": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/5714",
+        "#4712": "https://github.com/WikiEducationFoundation/WikiEduDashboard/pull/4712"
+      },
+      "technologies": ["React.js", "Ruby on Rails", "MySQL", "RSpec", "Jest"],
       "logo": "./wikiedu.svg"
     },
     {
       "organization": "The Oppia Foundation",
       "repository": "Oppia",
-      "details": "#1234 - Contributing to Oppia, an educational platform for students aged 7 to 14, was a fulfilling experience.\nI worked on impactful features and enhancements. I implemented a language toggle in the embedded player, enabling seamless language switching for course content, and added functionality to temporarily unpublish stories without deleting translations, enhancing content management flexibility. Additionally, I wrote comprehensive frontend tests in Jasmine to maintain robustness and quality across new features and resolved usability issues, such as blank prerequisite skills and confusing dropdowns, improving the overall user experience. This opportunity deepened my expertise in Angular.js and Google App Engine, while allowing me to make meaningful contributions to a tool that empowers global education.",
+      "introduction": "The Oppia Foundation is a nonprofit organization that provides free, online learning resources to help people learn in an effective and enjoyable way",
+      "highlight_introduction": {
+        "Oppia Foundation": "https://www.oppiafoundation.org"
+      },
+      "details": "#21216 - Added language change option to the embedded exploration player, enabling language switching for Oppia course content.\n#21207 - Fixed issue where prerequisite skills were appearing blank in the editor.\n#21171 - Changed dropdown to heading in the question editor, improving clarity.\n#21331 - Fixed error message about unsaved changes.",
       "highlight_details": {
-        "#1234": "https://www.juit.ac.in/"
+        "#21171": "https://github.com/oppia/oppia/pull/21171",
+        "#21207": "https://github.com/oppia/oppia/pull/21207",
+        "#21216": "https://github.com/oppia/oppia/pull/21216"
       },
       "technologies": ["Angular", "Jasmine"],
       "pullRequestsMerged": 4,
@@ -174,38 +190,92 @@
     {
       "name": "Interviewlabs",
       "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
-      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
-      "github": ""
+      "technology": ["React.js", "Express.js", "WebRTC", "Socket.io", "Docker"],
+      "github": "https://github.com/ujjwalpathaak/interviewlabs"
     },
     {
       "name": "Pintastic",
       "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
-      "github": ""
+      "technology": ["Next.js", "Firebase", "Google OAuth"],
+      "github": "https://github.com/ujjwalpathaak/Pintastic"
     },
     {
-      "name": "Interviewlabs",
-      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
-      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
-      "github": ""
+      "name": "Pintastic-Google_Chrome_Extension",
+      "description": "Google Chrome Extension for Pintastic",
+      "technology": ["HTML", "CSS", "Chrome Extension"],
+      "github": "https://github.com/ujjwalpathaak/Pintastic---Google_Chrome_Extension"
     },
     {
-      "name": "Pintastic",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
-      "github": ""
+      "name": "CompilerConnect-API",
+      "description": "API to run C++ and Python code on the cloud :)",
+      "technology": ["Javascript", "Node.js", "Docker"],
+      "github": "https://github.com/ujjwalpathaak/CompilerConnect-API"
     },
     {
-      "name": "Interviewlabs",
-      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",
-      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
-      "github": ""
+      "name": "Twaddle",
+      "description": "A Whatsapp clone built using React.js, Node,js & MongoDB.",
+      "technology": ["React.js", "Node.js", "MongoDB"],
+      "github": "https://github.com/ujjwalpathaak/twaddle"
     },
     {
-      "name": "Pintastic",
-      "description": "Pin-sharing platform with OAuth support, built using Next.js and Firebase.",
-      "technology": ["React.js", "Express.js", "Socket.io", "Docker"],
-      "github": ""
+      "name": "HireHive",
+      "description": "HireHive is a candidate selection tool designed to streamline the recruitment process by leveraging advanced skill set matching and automated social profile verification.",
+      "technology": ["Streamlit", "AWS", "BERT", "Python", "Cosine Similarity"],
+      "github": "https://github.com/ujjwalpathaak/Major-Project---HireHive"
+    },
+    {
+      "name": "JUIT WebKiosk API",
+      "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.API for accessing Student Data through JUIT WebKiosk. Created using NodeJS, ExpressJS and Cheerio",
+      "technology": ["Javascript", "Node.js", "Cheerio", "Puppeteer"],
+      "github": "https://github.com/ujjwalpathaak/WEBKIOSK-API"
+    },
+    {
+      "name": "Pathfinding Visualizer project.",
+      "description": "A project for submission in the Algorithms Lab at JUIT",
+      "technology": ["React.js"],
+      "github": "https://github.com/ujjwalpathaak/DAA-Project"
+    },
+    {
+      "name": "Cpp-WebServer",
+      "description": "Web Server in C++",
+      "technology": ["C++"],
+      "github": "https://github.com/ujjwalpathaak/Cpp-WebServer"
+    },
+    {
+      "name": "SAV--SortingAlgoVisualize",
+      "description": "Algorithms Sorting Simulation written in C++",
+      "technology": ["C++"],
+      "github": "https://github.com/ujjwalpathaak/SAV--SortingAlgoVisualizer"
+    },
+    {
+      "name": "AutoCertificateGenerator",
+      "description": "Project for MATLAB Lab at JUIT",
+      "technology": ["Matlab"],
+      "github": "https://github.com/ujjwalpathaak/AutoCertificateGenerator---MATLAB"
+    },
+    {
+      "name": "Virtual-Sketchpad",
+      "description": "A virtual sketchpad using OpenCV",
+      "technology": ["Python", "OpenCV"],
+      "github": "https://github.com/ujjwalpathaak/Virtual-Sketchpad"
+    },
+    {
+      "name": "Naruto_Rock_Paper_Scissors",
+      "description": "Rock Paper Scissors game with Naruto characters",
+      "technology": ["HTML", "CSS", "Javascript"],
+      "github": "https://github.com/ujjwalpathaak/Rock_Paper_Scissors_Naruto"
+    },
+    {
+      "name": "Weather.io---WebApp",
+      "description": "A Weather WebApp using OpenWeatherMap API",
+      "technology": ["OpenWeatherMap API", "HTML", "CSS", "Javascript"],
+      "github": "https://github.com/ujjwalpathaak/Weather.io---WebApp"
+    },
+    {
+      "name": "Sudoku_solver",
+      "description": "Sudoku Solver using API",
+      "technology": ["HTML", "CSS", "Javascript"],
+      "github": "https://github.com/ujjwalpathaak/Sudoku_Solver"
     }
   ]
 }
