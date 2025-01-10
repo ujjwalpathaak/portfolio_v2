@@ -10,7 +10,7 @@ import Project from "../components/Project";
 import OpenSource from "../components/OpenSource";
 import Navbar from "../components/NavBar";
 import ExternalLink from "../components/ExternalLink";
-import Footer from "../components/Footer";
+import Testimonial from "../components/Testimonials";
 
 const Main = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -113,6 +113,10 @@ const Main = () => {
             <Project {...exp} />
           ))}
           <ExternalLink text="Go to Project Archive →" link="/all/projects" />
+        </section>
+        <section id="whatpeoplesayaboutme" className="mb-[10vh] text-text">
+          <Heading heading="What people say about me" type="subheading" />
+          <Testimonial testimonials={config.testimonials} />
         </section>
       </div>
     </div>

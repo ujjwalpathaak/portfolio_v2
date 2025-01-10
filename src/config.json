@@ -277,5 +277,19 @@
       "technology": ["HTML", "CSS", "Javascript"],
       "github": "https://github.com/ujjwalpathaak/Sudoku_Solver"
     }
+  ],
+  "testimonials": [
+    {
+      "name": "Shivansh Sethi",
+      "position": "Founder, Aiotize",
+      "linkedin": "https://www.linkedin.com/in/shivanshsethi",
+      "message": "I had the privilege of working with Ujjwal Pathak on my personal portfolio website, shivanshsethi.com, and I’m thoroughly impressed with his professionalism, creativity, and technical skills. Ujjwal translated my vision into a sleek, functional website, aligning the design with my goals.\n\nHis communication and collaborative approach were exceptional, delivering a polished product within the timeline. I highly recommend Ujjwal to anyone seeking a skilled web developer with a client-first mindset."
+    },
+    {
+      "name": "Shrashti Singhal",
+      "position": "Principal Data Scientist, Culinda Inc.",
+      "linkedin": "https://www.linkedin.com/in/shrashti-singhal-1869166b",
+      "message": "I had the pleasure of mentoring Ujjwal during his internship at Culinda, where he showcased exceptional skills and eagerness to learn. Ujjwal quickly demonstrated proficiency in Node.js and expanded his expertise by working with FastAPI, designing robust databases, and writing Supabase edge functions.\n\nHis contributions to a critical module were instrumental, highlighting his technical acumen and problem-solving abilities. I highly recommend Ujjwal for any backend developer role with a focus on Node.js and a strong aptitude for learning and innovation."
+    }
   ]
 }

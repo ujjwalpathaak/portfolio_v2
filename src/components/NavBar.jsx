@@ -9,6 +9,7 @@ function Navbar({ activeSection }) {
           { id: "#hustlemap", label: "Hustle Map" },
           { id: "#opensourcework", label: "Open-Source Work" },
           { id: "#thingsihavemade", label: "Things I have made" },
+          { id: "#whatpeoplesayaboutme", label: "What people say about me" },
         ].map(({ id, label }) => (
           <a
             key={id}
