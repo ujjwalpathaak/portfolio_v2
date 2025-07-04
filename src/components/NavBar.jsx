@@ -8,6 +8,7 @@ function Navbar({ activeSection }) {
           { id: "#whoami", label: "Who am I?" },
           { id: "#hustlemap", label: "Hustle Map" },
           { id: "#opensourcework", label: "Open-Source Work" },
+          { id: "#articlesihavewritten", label: "Articles I have written" },
           { id: "#thingsihavemade", label: "Things I have made" },
           { id: "#whatpeoplesayaboutme", label: "What people say about me" },
         ].map(({ id, label }) => (

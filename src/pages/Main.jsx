@@ -11,6 +11,7 @@ import OpenSource from "../components/OpenSource";
 import Navbar from "../components/NavBar";
 import ExternalLink from "../components/ExternalLink";
 import Testimonial from "../components/Testimonials";
+import Article from "../components/Article";
 
 const Main = () => {
   const [activeSection, setActiveSection] = useState("");
@@ -106,6 +107,13 @@ const Main = () => {
           {config.openSourceContributions.map((exp) => (
             <OpenSource {...exp} />
           ))}
+        </section>
+        <section id="articlesihavewritten" className="mb-[10vh]">
+          <Heading heading="Articles I have written" type="subheading" />
+          {config.articles.map((article) => (
+            <Article {...article} />
+          ))}
+          {/* <ExternalLink text="Go to Articles Archive →" link="/all/projects" /> */}
         </section>
         <section id="thingsihavemade" className="mb-[10vh]">
           <Heading heading="Things I have made" type="subheading" />
