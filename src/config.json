@@ -61,12 +61,39 @@
   ],
   "experience": [
     {
-      "title": "Project Development Intern",
+      "title": "Software Development Engineer I",
       "company": "Darwinbox",
-      "duration": "January 2025 - Present",
+      "duration": "July 2025 - Present",
       "location": "Hyderabad",
       "details": "To start soon.",
       "highlight_details": {},
+      "technologies": null,
+      "logo": "./darwinbox.png"
+    },
+    {
+      "title": "Project Development Intern",
+      "company": "Darwinbox",
+      "duration": "January 2025 - June 2025",
+      "location": "Hyderabad",
+      "details": "I built a lightweight in-house e-signature tool inspired by DocuSign SES (Simple Electronic Signature) workflow, focused on internal document signing and approval processes. I implemented cryptographic techniques to ensure data integrity and added audit capabilities by logging IP addresses, timestamps, and user actions. The tool supported both parallel and sequential signing flows with multiple signing modes, making it flexible for various internal workflows. I also added support for dynamic placeholders in PDFs to personalize bulk document signing—auto-filling names, dates, initials, and roles—making the signing process both efficient and scalable. In parallel, I developed an automated quiz platform to help employees stay updated on company policies, culture, and news with minimal manual effort. I used GPT-4o to generate quiz questions from contextual sources like Google RSS feeds, internal HR documents, and the company website. The platform handled everything—from curation and scheduling to scoring and delivery—entirely through automation. To boost engagement, I incorporated gamification elements and leaderboard tracking, turning routine knowledge checks into a fun, recurring challenge.",
+      "highlight_details": {
+        "DocuSign": "https://www.docusign.com/en-gb",
+        "SES": null,
+        "cryptographic techniques": null,
+        "audit capabilities": null,
+        "IP addresses": null,
+        "timestamps": null,
+        "user actions": null,
+        "parallel and sequential signing": null,
+        "dynamic placeholders": null,
+        "auto-filling names, dates, initials, and roles": null,
+        "automated quiz platform": null,
+        "GPT-4o": "https://openai.com/chatgpt",
+        "Google RSS feeds": "https://support.google.com/news/publisher-center/answer/9607025?hl=en",
+        "HR documents": null,
+        "gamification elements": null,
+        "leaderboard tracking": null
+      },
       "technologies": null,
       "logo": "./darwinbox.png"
     },
@@ -111,7 +138,13 @@
     {
       "name": "Interviewlabs",
       "description": "I created a C++ interview platform that enables smooth video calls using WebRTC (simple-peer) and real-time IDE collaboration with Socket.io. The platform runs C++ code securely in the cloud using Docker and child processes.",
-      "technologies": ["React.js", "Express.js", "WebRTC", "Socket.io", "Docker"],
+      "technologies": [
+        "React.js",
+        "Express.js",
+        "WebRTC",
+        "Socket.io",
+        "Docker"
+      ],
       "links": [
         {
           "img": "./github2.svg",
