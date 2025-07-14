@@ -10,11 +10,11 @@ const Article = ({
 }) => {
   return (
     <div className="mb-10 flex flex-col items-start lg:flex-row" key={name}>
-      <div className="mb-3 w-full lg:mb-6 lg:mr-6 lg:w-1/3">
+      <div className="mb-3 w-full lg:mb-6 lg:mr-6 lg:w-1/5">
         <img className="" src={image} alt={name}></img>
       </div>
       <div className="w-full lg:w-2/3">
-        <h6 className="flex items-center justify-between text-xl font-bold text-heading">
+        <h6 className="flex justify-center flex-col items-between text-xl font-bold text-heading">
           <div>{title}</div>
           <div className="flex gap-2">
             <a
@@ -27,11 +27,11 @@ const Article = ({
             </a>
           </div>
         </h6>
-        <p className="text-text">
+        {/* <p className="text-text">
           <HighlightText
             text={description}
           />
-        </p>
+        </p> */}
       </div>
     </div>
   )
