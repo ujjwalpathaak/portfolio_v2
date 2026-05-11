@@ -23,7 +23,7 @@ const Experience = ({
           {" "}
           <img
             src={logo}
-            alt="location"
+            alt={company}
             className="mr-1 inline-block h-6 w-6"
           />
         </div>
@@ -31,7 +31,8 @@ const Experience = ({
           <h6 className="text-xl font-bold text-heading">{company}</h6>
         </div>
       </div>
-      <p className="text-text">{role}</p>
+      {location && <p className="text-sm text-text">{location}</p>}
+      {role && <p className="text-text">{role}</p>}
       <p className="mt-2 text-justify text-text">
         {" "}
         <HighlightText text={details} wordsToHighlight={highlight_details} />

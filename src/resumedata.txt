@@ -1,0 +1,54 @@
+Ujjwal Pathak
++91-8448772593 | pathak2002ujjwal@gmail.com
+Portfolio | GitHub | LinkedIn | LeetCode
+Experience
+Darwinbox Hyderabad, Telangana
+Software Development Engineer I July 2025 – Present
+• Led a zero-downtime, 3-phase migration to merge 100K+ duplicate candidate accounts due to dot-variant emails.
+• Built a configurable translation framework adopted across 8+ modules, used across both the core monolith and multiple
+microservices, enabling tenant-specific translations for dynamic labels, entity names, and user-generated data.
+• Implemented opt-in middleware hooks for MongoDB find and aggregation queries, running translation logic across 40+
+object types and 6+ dynamic input types, including custom fields and dropdowns.
+• Integrated Google Calendar, Office 365, Microsoft Teams, and Zoom APIs into existing workflows to automate
+scheduling, meeting-link generation, and calendar notifications for recruiters, interviewers, and candidates.
+• Developed an automation script that automatically resolved 4,500+ SonarQube code quality issues, reducing manual
+remediation effort by 70% and improving compliance.
+• Participated in weekly on-call rotation for the recruitment module, resolving 40+ production issues and increased
+backend test coverage to 99%+ across 18K+ LOC.
+Darwinbox Hyderabad, Telangana
+Product Development Intern January 2025 – June 2025
+• Built an in-house cryptographic e-signature system, powering 30%+ internal document workflows and eliminating
+external vendor costs through secure backend APIs.
+• Implemented configurable parallel and sequential signing pipelines with automated audit trail generation, including
+role-based signers, timestamps, and placeholder resolution using event-driven processing.
+• Developed an AI-powered automated quiz generation system for Darwinbox’s social media platform using GPT-4o and
+Google RSS feeds, reducing HR content creation effort by 90%.
+Culinda Remote
+Software Developer Intern January 2024 – December 2024
+• Designed and built an automated job-application platform integrating 5+ external job portals using Puppeteer.
+• Implemented headless browser orchestration with GitHub Actions and Cloud Functions to run fully automated daily
+applications, reducing manual effort by 90%.
+Projects
+LLM-Enhanced Job Processing Framework | Java, Springboot, RabbitMQ, Redis, PostgreSQL, LangChain GitHub
+• Designed a job processing framework abstracting queueing, worker orchestration, retries, and lifecycle management.
+• Developed an async log intelligence pipeline for job execution events, streaming logs via RabbitMQ, buffering in Redis,
+and enabling semantic search via embeddings stored in PostgreSQL (pgvector).
+• Designed hybrid RAG retrieval and integrated a LangChain + Gemini assistant for natural-language debugging and
+root-cause analysis of job failures.
+• Implemented resilient execution with persistent state transitions, retry/backoff workflows, dead-letter queues, and
+horizontally scalable consumers.
+Open Source Contributions | React.js, Angular, Ruby on Rails, MySQL, RSpec, Jest Contributions
+• Contributed to 13+ pull requests (merged) to Oppia Foundation and Wiki Education Dashboard open-source projects.
+• These are globally used education platforms with 7K+ combined GitHub stars and large learner communities.
+Skills
+Languages: Java, TypeScript, JavaScript, SQL
+Backend: Springboot, Node.js, Express.js, REST APIs, WebSockets
+Databases: MongoDB, Redis, PostgreSQL, pgvector
+GenAI: RAG, LangChain, Vector Databases, LLM APIs
+Cloud/DevOps: AWS (EC2, S3, RDS, IAM), Docker, Git, Linux
+Tools: Elasticsearch, Logstash, Kibana, New Relic, SonarQube
+Frontend: React.js, TailwindCSS, HTML, CSS
+Education
+Jaypee University of Information Technology Solan, Himachal Pradesh
+Bachelor of Technology in Computer Science - CGPA (8.37/10) September 2021 – June 2025
+

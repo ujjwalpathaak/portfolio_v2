@@ -3,7 +3,7 @@
     "name": "Ujjwal Pathak",
     "position": "Software Engineer",
     "profile": "./profile.jpeg",
-    "bio": "Hello! I am currently a final-year student pursuing a degree in Computer Science at Jaypee University of Information Technology. I have recently relocated to Hyderabad and am enjoying the vibrant tech culture here. I am currently working as a Product Development Intern at Darwinbox. If you have any interesting opportunities, feel free to drop me a message at pathak2002ujjwal@gmail.com or drop a message (click me)",
+    "bio": "Hi! For the past year I’ve been working as a Software Development Engineer I at Darwinbox. Darwinbox is a unicorn and India’s biggest HRMS player, and I’ve been building in a very fast-paced, ownership-heavy work culture where I get to own features end to end and ship quickly. Hit me up at pathak2002ujjwal@gmail.com or drop a message (click me)",
     "highlight_bio": {
       "Computer Science": null,
       "Jaypee University of Information Technology": "https://www.juit.ac.in/",
@@ -11,7 +11,7 @@
       "8.2": null,
       "Darwinbox": "https://darwinbox.com/",
       "pathak2002ujjwal@gmail.com": "mailto:pathak2002ujjwal@gmail.com",
-      "Product Development Intern": null,
+      "Software Development Engineer I": null,
       "drop a message": "https://wa.me/8448772593"
     },
     "highlight_about": [],
@@ -64,77 +64,70 @@
       "title": "Software Development Engineer I",
       "company": "Darwinbox",
       "duration": "July 2025 - Present",
-      "location": "Hyderabad",
-      "details": "To start soon.",
+      "location": "Hyderabad, Telangana",
+      "details": "Led a zero-downtime, 3-phase migration to merge 100K+ duplicate candidate accounts caused by dot-variant emails. Built a configurable translation framework adopted across 8+ modules in the core monolith and multiple microservices, with opt-in MongoDB find and aggregation hooks spanning 40+ object types and 6+ dynamic input types. Integrated Google Calendar, Office 365, Microsoft Teams, and Zoom into recruiting workflows, automated 4,500+ SonarQube fixes, and helped push backend test coverage to 99%+ across 18K+ LOC.",
       "highlight_details": {},
       "technologies": null,
       "logo": "./darwinbox.png"
     },
     {
-      "title": "Project Development Intern",
+      "title": "Product Development Intern",
       "company": "Darwinbox",
       "duration": "January 2025 - June 2025",
-      "location": "Hyderabad",
-      "details": "I built a lightweight in-house e-signature tool inspired by DocuSign SES (Simple Electronic Signature) workflow, focused on internal document signing and approval processes. I implemented cryptographic techniques to ensure data integrity and added audit capabilities by logging IP addresses, timestamps, and user actions. The tool supported both parallel and sequential signing flows with multiple signing modes, making it flexible for various internal workflows. I also added support for dynamic placeholders in PDFs to personalize bulk document signing—auto-filling names, dates, initials, and roles—making the signing process both efficient and scalable. In parallel, I developed an automated quiz platform to help employees stay updated on company policies, culture, and news with minimal manual effort. I used GPT-4o to generate quiz questions from contextual sources like Google RSS feeds, internal HR documents, and the company website. The platform handled everything—from curation and scheduling to scoring and delivery—entirely through automation. To boost engagement, I incorporated gamification elements and leaderboard tracking, turning routine knowledge checks into a fun, recurring challenge.",
+      "location": "Hyderabad, Telangana",
+      "details": "Built an in-house cryptographic e-signature system powering 30%+ of internal document workflows and eliminating external vendor costs. Implemented configurable parallel and sequential signing pipelines with automated audit trails, including role-based signers, timestamps, and placeholder resolution using event-driven processing. Also developed an AI-powered automated quiz generation system with GPT-4o and Google RSS feeds to reduce HR content creation effort by 90%.",
       "highlight_details": {
-        "DocuSign": "https://www.docusign.com/en-gb",
-        "SES": null,
-        "cryptographic techniques": null,
-        "audit capabilities": null,
-        "IP addresses": null,
+        "cryptographic": null,
+        "audit trails": null,
+        "role-based signers": null,
         "timestamps": null,
-        "user actions": null,
-        "parallel and sequential signing": null,
-        "dynamic placeholders": null,
-        "auto-filling names, dates, initials, and roles": null,
-        "automated quiz platform": null,
+        "placeholder resolution": null,
         "GPT-4o": "https://openai.com/chatgpt",
         "Google RSS feeds": "https://support.google.com/news/publisher-center/answer/9607025?hl=en",
-        "HR documents": null,
-        "gamification elements": null,
-        "leaderboard tracking": null
+        "30%+": null,
+        "90%": null
       },
       "technologies": null,
       "logo": "./darwinbox.png"
     },
     {
       "title": "Software Developer Intern",
-      "company": "Culinda Inc.",
-      "duration": "January 2024 - November 2024",
+      "company": "Culinda",
+      "duration": "January 2024 - December 2024",
       "location": "Remote",
-      "details": "I worked extensively on the backend development, automation, and API integration for RecRoid.com. I leveraged Hume AI to analyze AI-based interview recordings across 20+ metrics, improving the candidate assessment process. I developed auto-job-apply bots for over 5 job portals, automating the job application process and saving significant time. These bots were configured to run daily Cron jobs using GitHub Actions and deployed on Cloud Functions and browserless infrastructure. Additionally, I integrated OpenAI for customized job application responses, extracted hidden recruiter details for automating cold emails, and implemented promo code functionality with Razorpay and Stripe payment gateways for discounts and free trials.",
+      "details": "Designed and built an automated job-application platform integrating 5+ external job portals using Puppeteer. Implemented headless browser orchestration with GitHub Actions and Cloud Functions to run fully automated daily applications, reducing manual effort by 90%.",
       "highlight_details": {
-        "RecRoid.com": "https://www.recroid.com/",
-        "Hume AI": "https://www.hume.ai/",
-        "browserless": "https://www.browserless.io/",
-        "20+": null,
-        "Cron jobs": null,
-        "OpenAI": null,
-        "5": null,
         "GitHub Actions": null,
         "Cloud Functions": null,
-        "Razorpay": "https://razorpay.com/",
-        "Stripe": "https://stripe.com/"
+        "Puppeteer": "https://pptr.dev/",
+        "90%": null
       },
       "technologies": ["React.js", "Node.js", "MongoDB"],
       "logo": "./culinda.png"
-    },
-    {
-      "title": "Full Stack Developer Intern",
-      "company": "Exponance Twirltree LLP",
-      "duration": "June 2023 - July 2023",
-      "location": "Remote",
-      "details": "I designed and developed a comprehensive Staff Attendance System that streamlined the attendance tracking process by building RESTful APIs. This automation reduced manual work by more than 50%, improving efficiency and accuracy. To enhance security, I integrated JWT authentication, ensuring secure access and data integrity.",
-      "highlight_details": {
-        "RESTful APIs": "https://www.google.com/search?q=RESTful+APIs",
-        "50%": null,
-        "JWT": "https://jwt.io/"
-      },
-      "technologies": ["React.js", "Node.js", "MongoDB"],
-      "logo": "./exponance.png"
     }
   ],
   "projects": [
+    {
+      "name": "LLM-Enhanced Job Processing Framework",
+      "description": "I designed a job processing framework that abstracts queueing, worker orchestration, retries, and lifecycle management. I built an async log intelligence pipeline that streams execution events through RabbitMQ, buffers them in Redis, and supports semantic search with PostgreSQL pgvector embeddings. I also integrated a LangChain and Gemini assistant for natural-language debugging, root-cause analysis, and resilient failure handling.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "RabbitMQ",
+        "Redis",
+        "PostgreSQL",
+        "LangChain",
+        "pgvector",
+        "Gemini"
+      ],
+      "links": [
+        {
+          "img": "./github2.svg",
+          "url": "https://github.com/ujjwalpathaak?tab=repositories"
+        }
+      ],
+      "image": "job-framework.svg"
+    },
     {
       "name": "Interviewlabs",
       "description": "I created a C++ interview platform that enables smooth video calls using WebRTC (simple-peer) and real-time IDE collaboration with Socket.io. The platform runs C++ code securely in the cloud using Docker and child processes.",
@@ -236,6 +229,12 @@
     }
   ],
   "project_archive": [
+    {
+      "name": "LLM-Enhanced Job Processing Framework",
+      "description": "Framework for queueing, worker orchestration, retries, lifecycle management, and AI-assisted debugging for job execution pipelines.",
+      "technology": ["Java", "Spring Boot", "RabbitMQ", "Redis", "PostgreSQL", "LangChain", "pgvector", "Gemini"],
+      "github": "https://github.com/ujjwalpathaak?tab=repositories"
+    },
     {
       "name": "Interviewlabs",
       "description": "Platform for conducting C++ coding interviews with features like real-time coding, video calls (WebRTC), and cloud-based code execution.",

@@ -5,7 +5,7 @@ import HighlightText from "./HighlightText";
 const Projects = ({
   name,
   description,
-  highlight_descripion,
+  highlight_description,
   technologies,
   links,
   image,
@@ -21,8 +21,10 @@ const Projects = ({
           <div className="flex gap-2">
             {links.map(({ img, url }) => (
               <a
+                key={url}
                 href={url}
                 target="_blank"
+                rel="noreferrer noopener"
                 className="group relative overflow-hidden p-1"
               >
                 <span className="absolute inset-0 -translate-x-full transform bg-yellow-300 transition-transform duration-300 group-hover:translate-x-0"></span>
@@ -34,7 +36,7 @@ const Projects = ({
         <p className="text-text">
           <HighlightText
             text={description}
-            wordsToHighlight={highlight_descripion}
+            wordsToHighlight={highlight_description}
           />
         </p>
         <div className="mt-2 flex flex-wrap">
